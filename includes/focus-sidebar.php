@@ -15,9 +15,9 @@
 );
 	$fposts = get_posts( $args );
 	foreach ( $fposts as $post ) :
-	setup_postdata( $post ); 
+	setup_postdata( $post );
 	$img_id = get_post_meta( $post->ID, '-banner_image', true );
-	$img_url = $img_id != '' ? wp_get_attachment_url( $img_id ) : 'https://files.arsofia.com/uploads/2020/11/ARS_2021-01-555x800.jpg';
+	$img_url = !empty($img_id) ? wp_get_attachment_url( $img_id ) : 'https://files.arsofia.com/uploads/2020/11/ARS_2021-01-555x800.jpg';
 	?>
   <?php if ( get_post_meta( $post->ID, 'show_banner', true ) ) : ?>
     <div class="activities_widget" style="margin-bottom:24px">
@@ -29,6 +29,5 @@
         </div>
           </div>
         <?php endif; ?>
-            <?php endforeach; 
+            <?php endforeach;
 wp_reset_postdata(); ?>
-<?php //echo do_shortcode( '[olimometer id=5]' ); ?>
