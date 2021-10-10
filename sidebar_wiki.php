@@ -43,23 +43,31 @@ $wiki_loop = new WP_Query($wiki_args);
 		<?php unset($photo);
 		if (current_theme_supports('post-thumbnails') && has_post_thumbnail()) {
 			$c_thumb_url = wp_get_attachment_image_src(get_post_thumbnail_id(), 'thumb');
-			$photo = $c_thumb_url[0];
+			$photo = $c_thumb_url !== false ? $c_thumb_url[0] : false;
 		} else {
 			$photo = catch_that_image($post->ID);
 		}
+
 		if (!$photo) {
 			$photo = get_bloginfo('template_directory') . '/images/no-img-thumb.jpg';
 		}
 		?>
 		<?php if (get_the_ID() === $wiki_id): ?>
-			<li class="wiki-list-item current"><h1><a class="current-hrf" href="<?php the_permalink(); ?>"
-													  rel="bookmark" title="<?php the_title(); ?>">
+			<li class="wiki-list-item current">
+				<h1>
+					<a class="current-hrf" href="<?php the_permalink(); ?>"  rel="bookmark" title="<?php the_title(); ?>">
 						<?php the_title(); ?>
-					</a></h1></li>
+					</a>
+				</h1>
+			</li>
 		<?php else: ?>
-			<li class="wiki-list-item"><a class="hrf" href="<?php the_permalink(); ?>" rel="bookmark"
-										  title="<?php the_title(); ?>"><?php the_title(); ?>
-				</a></h1> </li>
+			<li class="wiki-list-item">
+				<h1>
+					<a class="hrf" href="<?php the_permalink(); ?>" rel="bookmark" title="<?php the_title(); ?>">
+						<?php the_title(); ?>
+					</a>
+				</h1>
+			</li>
 		<?php endif; ?>
 	<?php endwhile; ?>
 	<?php wp_reset_query($wiki_loop); ?>
