@@ -1,0 +1,41 @@
+.collapse p {padding:0 10px 1em;margin-top: 10px;}
+
+.switch { top:1.5em; right: 1.5em; padding:3px}
+
+.post .switch {position:static; text-align:right}
+
+.post .main{margin-bottom:.3em; padding-bottom:0}
+
+.other li, .summary {margin-bottom:.3em; padding:1em; border:1px solid #e8e7e8; background-color:#f8f7f8}
+
+.other ul {list-style-type:none; text-align:center}
+.expand {
+float:none !important;
+border-top:none !important;
+margin-top: 0 !important;
+text-transform: none !important;
+padding: 5px !important;
+padding-left: 0 !important;
+padding-right: 0 !important;
+border-bottom: 2px solid #EBEBEB !important;
+}
+.expand a {
+  display:block;
+  padding:3px 10px;
+  font-size:17px;
+}
+.expand a:link, .expand a:visited {
+  border-width:1px;
+  background-image:url(../images/arrow-down.gif);
+  background-repeat:no-repeat;
+  background-position: 5px 50%;
+  padding-left: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.expand a:hover, .expand a:active, .expand a:focus {
+}
+.expand a.open:link, .expand a.open:visited {
+  background:#ccc url(../images/arrow-up.gif) no-repeat 5px 50%;
+  padding-left: 20px;
+}

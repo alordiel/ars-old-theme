@@ -1,0 +1,3 @@
+ICL_LANGUAGE_CODE == 'en'
+
+ICL_LANGUAGE_CODE == 'bg'

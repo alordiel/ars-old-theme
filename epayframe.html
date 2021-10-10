@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<title>Epay</title>
+<style>
+/*epay*/
+A.epay-button { border: solid 1px #FFF; background-color: Maroon; padding: 6px; color: #FFF; background-image: none; font-weight: normal; padding-left: 20px; padding-right: 20px; } A.epay-button:hover { border: solid 1px #ABC; background-color: Maroon; padding: 6px; color: #FFF; background-image: none; font-weight: normal; padding-left: 20px; padding-right: 20px; } A.epay { text-decoration: none; border-bottom: dotted 1px Maroon; color: Maroon; font-weight: bold; } A.epay:hover { text-decoration: none; border-bottom: solid 1px Maroon; color: Maroon; font-weight: bold; } TABLE.epay-view { white-space: nowrap; background-color: #CCC; } 
+/********** VIEWES **********************************************************/ 
+TD.epay-view { width: 100%; text-align: center; background-color: #DDD; } TD.epay-view-header { background-color: Maroon; color: #FFF; height: 30px; } 
+TD.epay-view-name { 
+background-color:#E9E9F9;
+border-bottom:medium none;
+height:30px;
+padding:5px;
+text-align:right;
+width:25%;
+} 
+TD.epay-view-value { 
+background-color:#E9E9F9;
+border-bottom:medium none;
+font-size:12px;
+padding:8px;
+text-align:center;
+text-transform:capitalize;
+white-space:normal;
+width:75%;
+} 
+INPUT.epay-button { border: solid 1px #FFF; background-color: Maroon; padding: 4px; color: #FFF; background-image: none; padding-left: 20px; padding-right: 20px; } INPUT.epay-button:hover { border: solid 1px #ABC; background-color: Maroon; padding: 4px; color: #FFF; background-image: none; padding-left: 20px; padding-right: 20px; }
+</style>
+</head>
+<body>
+<form action="https://www.epay.bg/" method="post">
+<table class="epay-view" style="width: 350px;" cellspacing="1" cellpadding="4">
+<tbody>
+<tr>
+<td class="epay-view-header" align="center">��������</td>
+<td class="epay-view-header" align="center">����</td>
+</tr>
+<tr>
+<td class="epay-view-value"><strong>DONATION I ANIMAL RESCUE SOFIA</strong></td>
+<td class="epay-view-name"><input name="TOTAL" size="5" type="text" /> BGN</td>
+</tr>
+<tr>
+<td class="epay-view-name" colspan="2"><input class="epay-button" name="BUTTON:EPAYNOW" type="submit" value=" ���� " /></td>
+</tr>
+<tr>
+<td class="epay-view-name" style="white-space: normal; font-size: 10;" colspan="2">��������� �� ����������� ���� <a class="epay" href="https://www.epay.bg/">ePay.bg</a> - �������� ��������� �� ������� � ������� ����� � �����������</td>
+</tr>
+</tbody>
+</table>
+<input name="PAGE" type="hidden" value="paylogin" /> <input name="MIN" type="hidden" value="2326683315" /> <input name="INVOICE" type="hidden" /> <input name="DESCR" type="hidden" value="���� ����� I ANIMAL RESCUE SOFIA" /> <input name="URL_OK" typhttps://arsofiaue="https://arsofia.com/bg/thank-you-bg" /> <input name="URL_CANCEL" type="hidden" value="https://www.epay.bg/?p=cancel"/> <input name="ENCODING" type="hidden" value="utf-8"  />
+</form>
+</body>
+</html>

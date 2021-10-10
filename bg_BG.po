@@ -1,0 +1,2093 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Arsofiav1\n"
+"POT-Creation-Date: 2017-08-15 12:24+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: SA Media\n"
+"Language: bg_BG\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__;esc_html_e;esc_html__\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Generator: Poedit 2.0.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: themes/arsofiav6.0\n"
+"X-Poedit-SearchPath-1: plugins/knowledge-base\n"
+"X-Poedit-SearchPathExcluded-0: themes/arsofiav6.0/includes/js\n"
+
+#: plugins/knowledge-base/admin/class-pressapps-knowledge-base-admin.php:93
+msgid "Are you sure you want to reset votes for this article?"
+msgstr ""
+
+#: plugins/knowledge-base/admin/class-pressapps-knowledge-base-admin.php:94
+msgid "Are you sure you want to reset votes for all articles?"
+msgstr ""
+
+#: plugins/knowledge-base/admin/class-pressapps-knowledge-base-admin.php:95
+msgid "Success! Votes are now reset"
+msgstr ""
+
+#: plugins/knowledge-base/admin/class-pressapps-knowledge-base-admin.php:113
+#: plugins/knowledge-base/admin/class-pressapps-knowledge-base-admin.php:115
+#: plugins/knowledge-base/includes/options/framework.config.php:10
+#: plugins/knowledge-base/includes/options/framework.config.php:11
+#: plugins/knowledge-base/includes/options/framework.config.php:64
+#: plugins/knowledge-base/includes/options/framework.config.php:172
+#: plugins/knowledge-base/public/lib/class-pressapps-knowledge-base-loop.php:974
+#: plugins/knowledge-base/public/lib/class-pressapps-knowledge-base-loop.php:1011
+msgid "Knowledge Base"
+msgstr ""
+
+#: plugins/knowledge-base/admin/class-pressapps-knowledge-base-admin.php:116
+msgid "Article"
+msgstr ""
+
+#: plugins/knowledge-base/admin/class-pressapps-knowledge-base-admin.php:117
+msgid "Add New"
+msgstr ""
+
+#: plugins/knowledge-base/admin/class-pressapps-knowledge-base-admin.php:118
+msgid "Add New Article"
+msgstr ""
+
+#: plugins/knowledge-base/admin/class-pressapps-knowledge-base-admin.php:119
+msgid "Edit Article"
+msgstr ""
+
+#: plugins/knowledge-base/admin/class-pressapps-knowledge-base-admin.php:120
+msgid "New Article"
+msgstr ""
+
+#: plugins/knowledge-base/admin/class-pressapps-knowledge-base-admin.php:121
+msgid "View Article"
+msgstr ""
+
+#: plugins/knowledge-base/admin/class-pressapps-knowledge-base-admin.php:122
+msgid "Search Articles"
+msgstr "Търси в wiki"
+
+#: plugins/knowledge-base/admin/class-pressapps-knowledge-base-admin.php:123
+msgid "No Articles found"
+msgstr ""
+
+#: plugins/knowledge-base/admin/class-pressapps-knowledge-base-admin.php:124
+msgid "No Articles found in Trash"
+msgstr ""
+
+#: plugins/knowledge-base/admin/class-pressapps-knowledge-base-admin.php:125
+msgid "All Articles"
+msgstr "Всички статии"
+
+#: plugins/knowledge-base/admin/class-pressapps-knowledge-base-admin.php:152
+#: plugins/knowledge-base/admin/class-pressapps-knowledge-base-admin.php:163
+msgid "Categories"
+msgstr "Категории"
+
+#: plugins/knowledge-base/admin/class-pressapps-knowledge-base-admin.php:153
+#: plugins/knowledge-base/admin/class-pressapps-knowledge-base-admin.php:473
+#: plugins/knowledge-base/includes/options/shortcode.config.php:60
+#: plugins/knowledge-base/includes/options/shortcode.config.php:71
+msgid "Category"
+msgstr "Категория"
+
+#: plugins/knowledge-base/admin/class-pressapps-knowledge-base-admin.php:154
+msgid "Search Categories"
+msgstr ""
+
+#: plugins/knowledge-base/admin/class-pressapps-knowledge-base-admin.php:155
+msgid "All Categories"
+msgstr ""
+
+#: plugins/knowledge-base/admin/class-pressapps-knowledge-base-admin.php:156
+msgid "Parent Category"
+msgstr ""
+
+#: plugins/knowledge-base/admin/class-pressapps-knowledge-base-admin.php:157
+msgid "Parent Category:"
+msgstr ""
+
+#: plugins/knowledge-base/admin/class-pressapps-knowledge-base-admin.php:158
+msgid "Edit Category"
+msgstr ""
+
+#: plugins/knowledge-base/admin/class-pressapps-knowledge-base-admin.php:159
+msgid "Update Category"
+msgstr ""
+
+#: plugins/knowledge-base/admin/class-pressapps-knowledge-base-admin.php:160
+msgid "Add New Category"
+msgstr ""
+
+#: plugins/knowledge-base/admin/class-pressapps-knowledge-base-admin.php:161
+msgid "New Category Name"
+msgstr ""
+
+#: plugins/knowledge-base/admin/class-pressapps-knowledge-base-admin.php:178
+#: plugins/knowledge-base/admin/class-pressapps-knowledge-base-admin.php:189
+msgid "Tags"
+msgstr ""
+
+#: plugins/knowledge-base/admin/class-pressapps-knowledge-base-admin.php:179
+msgid "Tag"
+msgstr ""
+
+#: plugins/knowledge-base/admin/class-pressapps-knowledge-base-admin.php:180
+msgid "Search Tags"
+msgstr "Търси тагове"
+
+#: plugins/knowledge-base/admin/class-pressapps-knowledge-base-admin.php:181
+msgid "All Tags"
+msgstr "Всички тагове"
+
+#: plugins/knowledge-base/admin/class-pressapps-knowledge-base-admin.php:182
+msgid "Parent Tag"
+msgstr "Родител таг"
+
+#: plugins/knowledge-base/admin/class-pressapps-knowledge-base-admin.php:183
+msgid "Parent Tag:"
+msgstr "Родител таг:"
+
+#: plugins/knowledge-base/admin/class-pressapps-knowledge-base-admin.php:184
+msgid "Edit Tag"
+msgstr "Редакция на таг"
+
+#: plugins/knowledge-base/admin/class-pressapps-knowledge-base-admin.php:185
+msgid "Update Tag"
+msgstr "Запазване на тага"
+
+#: plugins/knowledge-base/admin/class-pressapps-knowledge-base-admin.php:186
+msgid "Add New Tag"
+msgstr "Нов таг"
+
+#: plugins/knowledge-base/admin/class-pressapps-knowledge-base-admin.php:187
+msgid "New Tag Name"
+msgstr "Име на тага"
+
+#: plugins/knowledge-base/admin/class-pressapps-knowledge-base-admin.php:216
+msgid "Settings"
+msgstr ""
+
+#: plugins/knowledge-base/admin/class-pressapps-knowledge-base-admin.php:232
+msgid "Help"
+msgstr ""
+
+#: plugins/knowledge-base/admin/class-pressapps-knowledge-base-admin.php:341
+#: plugins/knowledge-base/admin/class-pressapps-knowledge-base-admin.php:480
+msgid "Reset"
+msgstr ""
+
+#: plugins/knowledge-base/admin/class-pressapps-knowledge-base-admin.php:357
+msgid "View all categories"
+msgstr ""
+
+#: plugins/knowledge-base/admin/class-pressapps-knowledge-base-admin.php:472
+#: plugins/knowledge-base/includes/options/shortcode.config.php:31
+msgid "Title"
+msgstr ""
+
+#: plugins/knowledge-base/admin/class-pressapps-knowledge-base-admin.php:478
+#: plugins/knowledge-base/includes/options/shortcode.config.php:33
+msgid "Likes"
+msgstr ""
+
+#: plugins/knowledge-base/admin/class-pressapps-knowledge-base-admin.php:479
+msgid "Dislikes"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:28
+msgid "General"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:34
+msgid "Page Template"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:41
+msgid "Article Slug"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:47
+msgid "Category Slug"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:58
+msgid "Breadcrumbs"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:63
+msgid "Breadcrumb Text"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:70
+#: plugins/knowledge-base/includes/options/framework.config.php:73
+#: plugins/knowledge-base/includes/options/shortcode.config.php:32
+msgid "Reorder"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:72
+msgid "Default"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:74
+msgid "Alphabetically"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:86
+msgid "Main Page"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:92
+msgid "Main Knowledge Base Page"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:99
+msgid "Columns"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:110
+msgid "Knowledge Base Layout"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:120
+msgid "Category Icon"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:126
+msgid "Category Count"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:133
+msgid "View All Link"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:139
+msgid "View All Count"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:146
+msgid "Articles Per Category"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:153
+msgid "Icon Size"
+msgstr "Размер на иконата"
+
+#: plugins/knowledge-base/includes/options/framework.config.php:161
+msgid "Category Font Size"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:168
+msgid "Page Layout"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:171
+msgid "Search Bar"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:175
+msgid "Page Content"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:176
+msgid "Sidebar"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:179
+msgid "Enabled"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:180
+#: plugins/knowledge-base/includes/options/framework.config.php:198
+#: plugins/knowledge-base/includes/options/framework.config.php:311
+msgid "Disabled"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:190
+msgid "Single Page"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:196
+msgid "Display Meta Info"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:199
+msgid "Top"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:200
+msgid "Bottom"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:219
+msgid "Comments"
+msgstr "Комнетари"
+
+#: plugins/knowledge-base/includes/options/framework.config.php:220
+msgid "Requires theme support"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:225
+msgid "Related Articles"
+msgstr "Свързани публикации"
+
+#: plugins/knowledge-base/includes/options/framework.config.php:235
+#: plugins/knowledge-base/includes/options/framework.config.php:241
+#: plugins/knowledge-base/public/lib/class-pressapps-knowledge-base-helper.php:90
+#: plugins/knowledge-base/public/lib/class-pressapps-knowledge-base-loop.php:978
+#: themes/arsofiav6.0/header-gallery.php:99
+#: themes/arsofiav6.0/header-video.php:106 themes/arsofiav6.0/header.php:131
+#: themes/arsofiav6.0/headeroldmenu.php:149
+msgid "Search"
+msgstr "Търсене"
+
+#: plugins/knowledge-base/includes/options/framework.config.php:247
+msgid "Placeholder"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:254
+msgid "Display Search Button"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:261
+msgid "Display Search on Archive Page"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:268
+msgid "Display Search on Single Page"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:284
+msgid "Live Search"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:291
+msgid "Display Categories in Search Results"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:303
+#: plugins/knowledge-base/includes/options/framework.config.php:309
+msgid "Voting"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:312
+msgid "Public Voting"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:313
+msgid "Logged In Users Only"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:320
+msgid "Display Dislike Button"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:327
+msgid "Vote Up Icon"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:334
+msgid "Vote Down Icon"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:341
+#: plugins/knowledge-base/includes/options/framework.config.php:342
+msgid "Reset All Votes"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:353
+msgid "Styling"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:359
+msgid "Primary Link Color"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:365
+msgid "Category Link Color"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:367
+msgid "Main page category links."
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:372
+msgid "Secondary Link Color"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:374
+msgid "Breadcrumbs, article meta, view all links."
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:379
+msgid "List Item Color"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:381
+msgid "Main page and widget list items."
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:386
+msgid "Custom CSS"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/framework.config.php:387
+msgid "You can add and override stylesheets here."
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/shortcode.config.php:12
+msgid "KNOWLEDGE BASE"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/shortcode.config.php:16
+msgid "Articles"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/shortcode.config.php:21
+msgid "Number of Articles"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/shortcode.config.php:27
+msgid "Order By"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/shortcode.config.php:30
+msgid "Date"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/shortcode.config.php:39
+msgid "Order"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/shortcode.config.php:42
+msgid "Ascending"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/shortcode.config.php:43
+msgid "Descending"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/shortcode.config.php:51
+msgid "None"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/shortcode.config.php:52
+msgid "Filter by Category"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/shortcode.config.php:53
+msgid "Filter by Tag"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/shortcode.config.php:82
+msgid "Display Title"
+msgstr ""
+
+#: plugins/knowledge-base/includes/options/taxonomy.config.php:16
+msgid "Icon"
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/classes/framework.class.php:197
+msgid "Success. Imported backup options."
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/classes/framework.class.php:202
+msgid "Default options restored."
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/classes/framework.class.php:221
+msgid "Default options restored for only this section."
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/classes/framework.class.php:405
+msgid "Settings saved."
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/classes/framework.class.php:406
+msgid "Save Changes"
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/classes/framework.class.php:406
+msgid "Saving..."
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/classes/framework.class.php:407
+msgid "Restore"
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/classes/options.class.php:126
+msgid "CONFIG"
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/classes/options.class.php:132
+msgid "USAGE"
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/classes/options.class.php:138
+msgid "VALUE"
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/classes/options.class.php:214
+#, php-format
+msgid "You are editing language: ( <strong>%s</strong> )"
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/classes/shortcode.class.php:83
+#: plugins/knowledge-base/includes/skelet/classes/shortcode.class.php:91
+#: plugins/knowledge-base/includes/skelet/fields/textarea/textarea.php:29
+msgid "Add Shortcode"
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/classes/shortcode.class.php:93
+msgid "Select a shortcode"
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/classes/shortcode.class.php:109
+msgid "Insert Shortcode"
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/fields/background/background.php:32
+#: plugins/knowledge-base/includes/skelet/fields/background/background.php:33
+#: plugins/knowledge-base/includes/skelet/fields/upload/upload.php:25
+#: plugins/knowledge-base/includes/skelet/fields/upload/upload.php:26
+msgid "Upload"
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/fields/background/background.php:34
+#: plugins/knowledge-base/includes/skelet/fields/upload/upload.php:27
+msgid "Use Image"
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/fields/backup/backup.php:22
+msgid "Import a Backup"
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/fields/backup/backup.php:23
+msgid "copy-paste your backup string here"
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/fields/backup/backup.php:28
+msgid "Export and Download Backup"
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/fields/backup/backup.php:29
+msgid "or"
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/fields/backup/backup.php:30
+msgid "!!! Reset All Options !!!"
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/fields/backup/backup.php:31
+msgid "Please be sure for reset all of framework options."
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/fields/gallery/gallery.php:23
+msgid "Add Gallery"
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/fields/gallery/gallery.php:24
+msgid "Edit Gallery"
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/fields/gallery/gallery.php:25
+msgid "Clear"
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/fields/group/group.php:23
+msgid "Adding"
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/fields/group/group.php:45
+#: plugins/knowledge-base/includes/skelet/fields/group/group.php:77
+msgid "Remove"
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/fields/icon/icon.php:27
+#: plugins/knowledge-base/includes/skelet/functions/actions.php:55
+msgid "Add Icon"
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/fields/icon/icon.php:28
+msgid "Remove Icon"
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/fields/image/image.php:24
+msgid "Add Image"
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/fields/sorter/sorter.php:26
+msgid "Enabled Modules"
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/fields/sorter/sorter.php:27
+msgid "Disabled Modules"
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/fields/switcher/switcher.php:22
+msgid "on"
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/fields/switcher/switcher.php:22
+msgid "off"
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/fields/typography/typography.php:75
+msgid "Web Safe Fonts"
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/fields/typography/typography.php:81
+msgid "Google Fonts"
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/fields/typography/typography.php:109
+#: plugins/knowledge-base/includes/skelet/functions/actions.php:30
+msgid "Error! Can not load json file."
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/functions/actions.php:56
+msgid "Search a Icon..."
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/functions/actions.php:57
+msgid "Loading..."
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/functions/helpers.php:50
+msgid "This field class is not available!"
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/functions/helpers.php:610
+msgid "Select media"
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/functions/helpers.php:659
+#, php-format
+msgid "The option type <code>%s</code> is not yet implemented"
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/functions/validate.php:14
+msgid "Please write a valid email address!"
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/functions/validate.php:33
+msgid "Please write a numeric data!"
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/functions/validate.php:51
+msgid "Fatal Error! This field is required!"
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/pressapps/template/help.php:10
+msgid "How can we help?"
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/pressapps/template/help.php:11
+msgid ""
+"Find answers in documentation or contact us through standard or premium "
+"support"
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/pressapps/template/help.php:18
+msgid "Help Center"
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/pressapps/template/help.php:19
+msgid ""
+"Learn how to install, setup, use and customize our products in documentation"
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/pressapps/template/help.php:25
+msgid "Standard Support"
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/pressapps/template/help.php:26
+msgid ""
+"Envato market purchases include six month of complimentary standard support"
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/pressapps/template/help.php:32
+msgid "Premium Support"
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/pressapps/template/help.php:33
+msgid ""
+"Let us help you with rapid response times and advanced technical support"
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/pressapps/template/help.php:38
+msgid "Looking for more?"
+msgstr "Looking for more?"
+
+#: plugins/knowledge-base/includes/skelet/pressapps/template/help.php:43
+msgid "Customization"
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/pressapps/template/help.php:44
+msgid ""
+"Do you want to customise our product and don not have the time or skills, "
+"get in touch"
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/pressapps/template/help.php:50
+msgid "Let us know what you think"
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/pressapps/template/help.php:51
+msgid ""
+"Your feedback helps us build better products and create better experience "
+"for you. Please share you your thoughts and ideas."
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/pressapps/template/help.php:52
+msgid "Feedback"
+msgstr ""
+
+#: plugins/knowledge-base/includes/skelet/pressapps/template/products.php:9
+msgid "Products By PressApps"
+msgstr ""
+
+#: plugins/knowledge-base/pressapps-knowledge-base.php:21
+msgid ""
+"The minimum PHP version required for this plugin is 5.3.0 Please upgrade the "
+"PHP version or contact your hosting provider to activate the plugin."
+msgstr ""
+
+#: plugins/knowledge-base/public/class-pressapps-knowledge-base-public.php:217
+msgid "Knowledge Base Main"
+msgstr ""
+
+#: plugins/knowledge-base/public/class-pressapps-knowledge-base-public.php:329
+#, php-format
+msgid "Search Result for \"%s\""
+msgstr "Search Result for \"%s\""
+
+#: plugins/knowledge-base/public/class-pressapps-knowledge-base-public.php:337
+msgid "KB Archive"
+msgstr ""
+
+#: plugins/knowledge-base/public/class-pressapps-knowledge-base-widgets.php:37
+msgid "Knowledge Base page not set under PressApps > Knowledge Base"
+msgstr ""
+
+#: plugins/knowledge-base/public/class-pressapps-knowledge-base-widgets.php:137
+#, php-format
+msgid "View all %s articles"
+msgstr ""
+
+#: plugins/knowledge-base/public/class-pressapps-knowledge-base-widgets.php:308
+msgid "There are no knowledge base articles."
+msgstr ""
+
+#: plugins/knowledge-base/public/lib/class-pressapps-knowledge-base-helper.php:277
+msgid "I found this helpful"
+msgstr ""
+
+#: plugins/knowledge-base/public/lib/class-pressapps-knowledge-base-helper.php:278
+msgid "I did not find this helpful"
+msgstr ""
+
+#: plugins/knowledge-base/public/lib/class-pressapps-knowledge-base-helper.php:371
+msgid "Related"
+msgstr "Чети още"
+
+#: plugins/knowledge-base/public/lib/class-pressapps-knowledge-base-loop.php:227
+msgid "in"
+msgstr ""
+
+#: plugins/knowledge-base/public/lib/class-pressapps-knowledge-base-loop.php:303
+msgid "Tags:"
+msgstr ""
+
+#: plugins/knowledge-base/public/partials/knowledgebase-category.php:39
+#: plugins/knowledge-base/public/partials/knowledgebase-category.php:58
+msgid "View All"
+msgstr ""
+
+#: plugins/knowledge-base/public/partials/knowledgebase-search.php:28
+msgid "Sorry, no results were found."
+msgstr ""
+
+#: plugins/knowledge-base/public/partials/knowledgebase-single.php:25
+#: plugins/knowledge-base/public/partials/knowledgebase-single.php:44
+#, php-format
+msgid "Last Updated: %s ago"
+msgstr ""
+
+#: themes/arsofiav6.0/adopt-page.php:37 themes/arsofiav6.0/page-animals.php:22
+msgid "Search Selection:"
+msgstr "Търсене по:"
+
+#: themes/arsofiav6.0/adopt-page.php:45 themes/arsofiav6.0/page-animals.php:38
+msgid "Status:"
+msgstr "Статус:"
+
+#: themes/arsofiav6.0/adopt-page.php:50 themes/arsofiav6.0/page-animals.php:29
+msgid "Type:"
+msgstr "Тип:"
+
+#: themes/arsofiav6.0/adopt-page.php:54 themes/arsofiav6.0/page-animals.php:33
+msgid "Gender:"
+msgstr "Пол:"
+
+#: themes/arsofiav6.0/adopt-page.php:58 themes/arsofiav6.0/page-animals.php:43
+msgid "Size:"
+msgstr "Размер:"
+
+#: themes/arsofiav6.0/adopt-page.php:62 themes/arsofiav6.0/page-animals.php:47
+msgid "Age:"
+msgstr "Възраст:"
+
+#: themes/arsofiav6.0/adopt_box.php:4
+msgid "Looking for a home"
+msgstr "Looking for a home"
+
+#: themes/arsofiav6.0/archive.php:29 themes/arsofiav6.0/layouts/default.php:29
+#: themes/arsofiav6.0/layouts/default.php:31
+msgid "Permanent Link to"
+msgstr "Към"
+
+#: themes/arsofiav6.0/archive.php:30 themes/arsofiav6.0/category-162.php:45
+#: themes/arsofiav6.0/category-163.php:45
+#: themes/arsofiav6.0/includes/latest_blog_sidebar2.php:48
+#: themes/arsofiav6.0/includes/latest_blog_sidebar2.php:93
+#: themes/arsofiav6.0/latest_ars.php:26
+#: themes/arsofiav6.0/layouts/default.php:30
+#: themes/arsofiav6.0/single-animals.php:39
+#: themes/arsofiav6.0/single-animals.php:82
+#: themes/arsofiav6.0/single-video.php:15
+msgid "Posted on"
+msgstr "Публикувано на"
+
+#: themes/arsofiav6.0/archive.php:34 themes/arsofiav6.0/category-448.php:35
+#: themes/arsofiav6.0/includes/featured.php:31
+#: themes/arsofiav6.0/layouts/default.php:31
+msgid "Continue Reading"
+msgstr "Още..."
+
+#: themes/arsofiav6.0/archive.php:40 themes/arsofiav6.0/category-162.php:54
+#: themes/arsofiav6.0/category-163.php:54
+#: themes/arsofiav6.0/category-448.php:41
+#: themes/arsofiav6.0/includes/latest_blog_sidebar.php:46
+#: themes/arsofiav6.0/search.php:49
+msgid "&laquo; Older Entries"
+msgstr "&laquo; По-стари"
+
+#: themes/arsofiav6.0/archive.php:41 themes/arsofiav6.0/category-162.php:55
+#: themes/arsofiav6.0/category-163.php:55
+#: themes/arsofiav6.0/category-448.php:42
+#: themes/arsofiav6.0/includes/latest_blog_sidebar.php:47
+#: themes/arsofiav6.0/search.php:50
+msgid "Newer Entries &raquo;"
+msgstr "По-нови &raquo;"
+
+#: themes/arsofiav6.0/comments.php:3
+msgid "Facebook comments"
+msgstr "Facebook коментари"
+
+#: themes/arsofiav6.0/comments.php:121
+msgid "Leave a Reply"
+msgstr "Коментирай"
+
+#: themes/arsofiav6.0/comments.php:131
+msgid "Logged in as"
+msgstr "В сайта като"
+
+#: themes/arsofiav6.0/comments.php:131
+msgid "Logout &raquo;"
+msgstr "Изход"
+
+#: themes/arsofiav6.0/comments.php:135
+msgid "Name"
+msgstr "Име"
+
+#: themes/arsofiav6.0/comments.php:142
+msgid "Submit Comment"
+msgstr "Коментиране"
+
+#: themes/arsofiav6.0/donationembed.php:56
+#: themes/arsofiav6.0/donationembed_horses.php:55
+#: themes/arsofiav6.0/includes/donate-page-top.php:92
+#: themes/arsofiav6.0/includes/donate-shelter-test.php:72
+#: themes/arsofiav6.0/includes/donate-shelter.php:75
+msgid "/images/paypal_logo.gif"
+msgstr "/images/paypal_logo.gif"
+
+#: themes/arsofiav6.0/donationembed.php:60
+#: themes/arsofiav6.0/donationembed.php:65
+#: themes/arsofiav6.0/donationembed_horses.php:57
+#: themes/arsofiav6.0/donationembed_horses.php:61
+#: themes/arsofiav6.0/includes/donate-page-top.php:103
+#: themes/arsofiav6.0/includes/donate-page-top.php:104
+#: themes/arsofiav6.0/includes/donate-page-top.php:105
+#: themes/arsofiav6.0/includes/donate-page-top.php:106
+#: themes/arsofiav6.0/includes/donate-page-top.php:107
+#: themes/arsofiav6.0/includes/donate-page-top.php:108
+#: themes/arsofiav6.0/includes/donate-page-top.php:109
+#: themes/arsofiav6.0/includes/donate-page-top.php:110
+#: themes/arsofiav6.0/includes/donate-page-top.php:114
+#: themes/arsofiav6.0/includes/donate-shelter-test.php:83
+#: themes/arsofiav6.0/includes/donate-shelter-test.php:87
+#: themes/arsofiav6.0/includes/donate-shelter.php:86
+#: themes/arsofiav6.0/includes/donate-shelter.php:90
+msgid "Euro"
+msgstr "Евро"
+
+#: themes/arsofiav6.0/donationembed.php:69
+#: themes/arsofiav6.0/donationembed_horses.php:64
+#: themes/arsofiav6.0/includes/donate-page-top.php:99
+#: themes/arsofiav6.0/includes/donate-shelter-test.php:78
+#: themes/arsofiav6.0/includes/donate-shelter.php:81
+msgid "One Time Donation:"
+msgstr "Еднократно"
+
+#: themes/arsofiav6.0/donationembed.php:71
+#: themes/arsofiav6.0/donationembed_horses.php:65
+#: themes/arsofiav6.0/includes/donate-page-top.php:100
+#: themes/arsofiav6.0/includes/donate-shelter-test.php:79
+#: themes/arsofiav6.0/includes/donate-shelter.php:82
+msgid "Monthly Donation:"
+msgstr "Месечно"
+
+#: themes/arsofiav6.0/donationembed.php:75
+#: themes/arsofiav6.0/donationembed.php:116
+#: themes/arsofiav6.0/donationembed_horses.php:68
+msgid "Donation"
+msgstr "Дарение"
+
+#: themes/arsofiav6.0/donationembed.php:87
+#: themes/arsofiav6.0/donationembed_horses.php:80
+msgid "Donate with PayPal"
+msgstr "Дари с PayPal"
+
+#: themes/arsofiav6.0/donationembed.php:89
+#: themes/arsofiav6.0/donationembed_horses.php:82
+#: themes/arsofiav6.0/includes/donate-page-top.php:131
+#: themes/arsofiav6.0/includes/donate-shelter-test.php:104
+#: themes/arsofiav6.0/includes/donate-shelter.php:107
+msgid "Please wait..."
+msgstr "Изчакайте..."
+
+#: themes/arsofiav6.0/donationembed.php:123
+msgid "/images/fbanklogo.png"
+msgstr "/images/fbanklogo.png"
+
+#: themes/arsofiav6.0/donationembed.php:126
+msgid "FIBank; 37 Dragan Tzankov blvd, Sofia, BG; SWIFT: FINV BG SF"
+msgstr "FIBank; Драган Цанков 37, София, BG; SWIFT: FINV BG SF"
+
+#: themes/arsofiav6.0/donationembed.php:129
+msgid "IBAN BGN: BG07FINV91501215999954; IBAN EUR: BG50FINV91501215999956"
+msgstr ""
+"IBAN в лева: BG07FINV91501215999954; IBAN в евро BG50FINV91501215999956"
+
+#: themes/arsofiav6.0/donationembed.php:132
+msgid "BENEFICIARY: A R Sofia Foundation; 23 James Bourchier blvd, Sofia, BG"
+msgstr "Титуляр: Фондация А Р София, бул. Джеймс Баучер 23, София, BG"
+
+#: themes/arsofiav6.0/footer.php:5
+msgid "Privacy Policy"
+msgstr "Privacy Policy"
+
+#: themes/arsofiav6.0/functions.php:119
+msgid "Primary Navigation"
+msgstr "Главна навигация"
+
+#: themes/arsofiav6.0/functions.php:120
+msgid "Secondary Navigation"
+msgstr "Второ Меню"
+
+#: themes/arsofiav6.0/functions.php:320
+msgid "Status"
+msgstr "Статус"
+
+#: themes/arsofiav6.0/functions.php:380 themes/arsofiav6.0/functions.php:405
+msgid "Years: "
+msgstr "Години:"
+
+#: themes/arsofiav6.0/functions.php:380 themes/arsofiav6.0/functions.php:405
+msgid "Months: "
+msgstr "Месеци:"
+
+#: themes/arsofiav6.0/functions/BFI_Thumb.php:145
+msgid ""
+"The server does not have ImageMagick or GD installed and/or enabled! Any of "
+"these libraries are required for WordPress to be able to resize images. "
+"Please contact your server administrator to enable this before continuing."
+msgstr ""
+
+#: themes/arsofiav6.0/functions/BFI_Thumb.php:273
+msgid "Image rotate failed."
+msgstr ""
+
+#: themes/arsofiav6.0/functions/BFI_Thumb.php:296
+msgid "Image opacity change failed."
+msgstr ""
+
+#: themes/arsofiav6.0/functions/BFI_Thumb.php:383
+msgid "Image color change failed."
+msgstr ""
+
+#: themes/arsofiav6.0/functions/BFI_Thumb.php:400
+msgid "Image grayscale failed."
+msgstr ""
+
+#: themes/arsofiav6.0/functions/BFI_Thumb.php:417
+msgid "Image negate failed."
+msgstr ""
+
+#: themes/arsofiav6.0/header-gallery.php:58
+#: themes/arsofiav6.0/headeroldmenu.php:107
+msgid "Home"
+msgstr "Начало"
+
+#: themes/arsofiav6.0/header-gallery.php:59
+#: themes/arsofiav6.0/headeroldmenu.php:108
+msgid "About ARS"
+msgstr "За ARS"
+
+#: themes/arsofiav6.0/header-gallery.php:60
+#: themes/arsofiav6.0/headeroldmenu.php:109
+msgid "Contact"
+msgstr "Контакт"
+
+#: themes/arsofiav6.0/header-gallery.php:61
+#: themes/arsofiav6.0/headeroldmenu.php:110
+msgid "Links"
+msgstr "Връзки"
+
+#: themes/arsofiav6.0/header-gallery.php:62
+#: themes/arsofiav6.0/headeroldmenu.php:111
+msgid "Info Bin"
+msgstr "Инфотека"
+
+#: themes/arsofiav6.0/header-gallery.php:65
+#: themes/arsofiav6.0/headeroldmenu.php:114
+msgid "Library"
+msgstr "Библиотека"
+
+#: themes/arsofiav6.0/header-gallery.php:66
+#: themes/arsofiav6.0/headeroldmenu.php:115
+msgid "Gallery"
+msgstr "Галерия"
+
+#: themes/arsofiav6.0/header-gallery.php:67
+#: themes/arsofiav6.0/headeroldmenu.php:116
+msgid "Videos"
+msgstr "Видео"
+
+#: themes/arsofiav6.0/header-gallery.php:68
+#: themes/arsofiav6.0/headeroldmenu.php:117
+msgid "our-banners"
+msgstr "bg/nashite-baneri"
+
+#: themes/arsofiav6.0/header-gallery.php:68
+#: themes/arsofiav6.0/headeroldmenu.php:117
+msgid "Our banners"
+msgstr "Нашите банери"
+
+#: themes/arsofiav6.0/header-gallery.php:69
+#: themes/arsofiav6.0/headeroldmenu.php:118
+msgid "FAQ"
+msgstr "Въпроси и Отговори"
+
+#: themes/arsofiav6.0/header-gallery.php:71
+#: themes/arsofiav6.0/headeroldmenu.php:120
+msgid "Newsletter"
+msgstr "Бюлетин"
+
+#: themes/arsofiav6.0/header-gallery.php:72
+#: themes/arsofiav6.0/headeroldmenu.php:121
+msgid "Campaigns"
+msgstr "Кампании"
+
+#: themes/arsofiav6.0/header-gallery.php:74
+#: themes/arsofiav6.0/headeroldmenu.php:123
+msgid "Current"
+msgstr "Настоящи"
+
+#: themes/arsofiav6.0/header-gallery.php:75
+#: themes/arsofiav6.0/headeroldmenu.php:124
+#: themes/arsofiav6.0/includes/video_ex.php:2
+msgid "https://arsofia.com/calendar"
+msgstr "https://arsofia.org/bg/calendar-bg"
+
+#: themes/arsofiav6.0/header-gallery.php:75
+#: themes/arsofiav6.0/headeroldmenu.php:124
+msgid "2011 Calendar"
+msgstr "2011 Calendar"
+
+#: themes/arsofiav6.0/header-gallery.php:76
+#: themes/arsofiav6.0/headeroldmenu.php:125
+msgid "https://arsofia.com/shops"
+msgstr "https://arsofia.org/bg/ars-mesta"
+
+#: themes/arsofiav6.0/header-gallery.php:76
+#: themes/arsofiav6.0/headeroldmenu.php:125
+msgid "ARS Shops"
+msgstr "АРС Места"
+
+#: themes/arsofiav6.0/header-gallery.php:77
+#: themes/arsofiav6.0/headeroldmenu.php:126
+msgid "Say NO to cruelty!"
+msgstr "НE на насилието!"
+
+#: themes/arsofiav6.0/header-gallery.php:78
+#: themes/arsofiav6.0/headeroldmenu.php:127
+msgid "starving"
+msgstr "glad"
+
+#: themes/arsofiav6.0/header-gallery.php:78
+#: themes/arsofiav6.0/headeroldmenu.php:127
+msgid "Starving dogs"
+msgstr "Кремиковци"
+
+#: themes/arsofiav6.0/header-gallery.php:79
+#: themes/arsofiav6.0/headeroldmenu.php:128
+msgid "Past"
+msgstr "Отминали"
+
+#: themes/arsofiav6.0/header-gallery.php:80
+#: themes/arsofiav6.0/headeroldmenu.php:129
+msgid "One Breed"
+msgstr "Една порода"
+
+#: themes/arsofiav6.0/header-gallery.php:81
+#: themes/arsofiav6.0/headeroldmenu.php:130
+msgid "Tea party"
+msgstr "Чаено парти"
+
+#: themes/arsofiav6.0/header-gallery.php:82
+#: themes/arsofiav6.0/headeroldmenu.php:131
+msgid "Sangrea party"
+msgstr "Сангрия парти"
+
+#: themes/arsofiav6.0/header-gallery.php:83
+#: themes/arsofiav6.0/headeroldmenu.php:132
+msgid "Beer party"
+msgstr "Бирено парти"
+
+#: themes/arsofiav6.0/header-gallery.php:84
+#: themes/arsofiav6.0/headeroldmenu.php:133
+msgid "food"
+msgstr "food-bg"
+
+#: themes/arsofiav6.0/header-gallery.php:84
+#: themes/arsofiav6.0/headeroldmenu.php:133
+msgid "Food party"
+msgstr "Кулинарно парти"
+
+#: themes/arsofiav6.0/header-gallery.php:85
+#: themes/arsofiav6.0/headeroldmenu.php:134
+msgid "https://arsofia.com/halloween"
+msgstr "https://arsofia.org/bg/halloween"
+
+#: themes/arsofiav6.0/header-gallery.php:85
+#: themes/arsofiav6.0/headeroldmenu.php:134
+msgid "Helloween party"
+msgstr "Хелоуин парти"
+
+#: themes/arsofiav6.0/header-gallery.php:86
+#: themes/arsofiav6.0/headeroldmenu.php:135
+msgid "https://arsofia.com/mojito"
+msgstr "https://arsofia.org/bg/mojito"
+
+#: themes/arsofiav6.0/header-gallery.php:86
+#: themes/arsofiav6.0/headeroldmenu.php:135
+msgid "Christmas party"
+msgstr "Коледно парти"
+
+#: themes/arsofiav6.0/header-gallery.php:87
+#: themes/arsofiav6.0/headeroldmenu.php:136
+msgid "https://arsofia.com/wine-valentine"
+msgstr "https://arsofia.org/bg/valentine"
+
+#: themes/arsofiav6.0/header-gallery.php:87
+#: themes/arsofiav6.0/headeroldmenu.php:136
+msgid "Valentine party"
+msgstr "Св.Валентин парти"
+
+#: themes/arsofiav6.0/header-gallery.php:88
+#: themes/arsofiav6.0/headeroldmenu.php:137
+msgid "https://arsofia.com/spring"
+msgstr "https://arsofia.org/bg/spring-bg"
+
+#: themes/arsofiav6.0/header-gallery.php:88
+#: themes/arsofiav6.0/headeroldmenu.php:137
+msgid "Spring Party"
+msgstr "Пролетно парти"
+
+#: themes/arsofiav6.0/header-gallery.php:89
+#: themes/arsofiav6.0/headeroldmenu.php:138
+msgid "b-day"
+msgstr "b-day-bg"
+
+#: themes/arsofiav6.0/header-gallery.php:89
+#: themes/arsofiav6.0/headeroldmenu.php:138
+msgid "B-Day Party"
+msgstr "Рожден ден!"
+
+#: themes/arsofiav6.0/header-gallery.php:90
+#: themes/arsofiav6.0/headeroldmenu.php:139
+msgid "18892/this-saturday-kids-party"
+msgstr "18899/detsko-parti-s-kutreta-tazi-sabota"
+
+#: themes/arsofiav6.0/header-gallery.php:90
+#: themes/arsofiav6.0/headeroldmenu.php:139
+msgid "Kids Party"
+msgstr "Детско парти"
+
+#: themes/arsofiav6.0/header-gallery.php:93
+#: themes/arsofiav6.0/headeroldmenu.php:142
+msgid "Blog"
+msgstr "Блог"
+
+#: themes/arsofiav6.0/header-gallery.php:108
+#: themes/arsofiav6.0/header-video.php:116
+#: themes/arsofiav6.0/headeroldmenu.php:159
+msgid "Search here..."
+msgstr "Търси тук..."
+
+#: themes/arsofiav6.0/header-video.php:8 themes/arsofiav6.0/header.php:6
+#: themes/arsofiav6.0/headeroldmenu.php:8
+#: themes/arsofiav6.0/page-animals.php:52 themes/arsofiav6.0/search.php:9
+msgid "Search Results"
+msgstr "Резултати от търсенето"
+
+#: themes/arsofiav6.0/header-video.php:13 themes/arsofiav6.0/header.php:11
+#: themes/arsofiav6.0/headeroldmenu.php:13
+msgid "Tag Archive&nbsp;|&nbsp;"
+msgstr "Таг Архив&nbsp;|&nbsp;"
+
+#: themes/arsofiav6.0/header-video.php:133
+msgid "Rehomed"
+msgstr "Задомени"
+
+#: themes/arsofiav6.0/header-video.php:134
+msgid "Neutered"
+msgstr "Кастрирани"
+
+#: themes/arsofiav6.0/header.php:141
+msgid "We rehomed"
+msgstr "Намерихме дом на"
+
+#: themes/arsofiav6.0/header.php:143
+msgid "We neutered"
+msgstr "Кастрирахме"
+
+#: themes/arsofiav6.0/home.php:11 themes/arsofiav6.0/sidebar_recent.php:4
+msgid "Latest"
+msgstr "Последни новини"
+
+#: themes/arsofiav6.0/includes/adotpt_info.php:3
+#: themes/arsofiav6.0/includes/adotpt_info.php:9
+#: themes/arsofiav6.0/includes/adotpt_info.php:15
+#: themes/arsofiav6.0/includes/adotpt_info.php:21
+msgid "Show/Hide"
+msgstr "Покажи/Скрий"
+
+#: themes/arsofiav6.0/includes/adotpt_info.php:3
+msgid "ADOPTION DETAILS"
+msgstr "ЗА ОСИНОВЯВАНЕТО"
+
+#: themes/arsofiav6.0/includes/adotpt_info.php:5
+msgid ""
+"Adoption is free of charge. The animals go home dewormed, vaccinated, "
+"microchipped and with an EU passport. The dogs and cats over 5 months of age "
+"are also neutered. There is an adoption contract. Among other things it "
+"requires adoptive parents to neuter their pups and kittens when they are old "
+"enough."
+msgstr ""
+"Осиновяването е безплатно. Животинките си отиват у дома обезпаразитени, "
+"ваксинирани, с микрочип и ЕС паспорт. Кучетата и котките над 5 месеца се "
+"дават кастрирани. Договорът задължава осиновителите да кастрират осиновените "
+"си мъничета, когато възрастта им го позволи."
+
+#: themes/arsofiav6.0/includes/adotpt_info.php:9
+msgid "ADOPTING FROM THE SHELTER"
+msgstr "ОСИНОВЯВАНЕ ОТ ПРИЮТА"
+
+#: themes/arsofiav6.0/includes/adotpt_info.php:11
+msgid ""
+"The adoption procedure is not complicated. Prospective owners need to come "
+"see the dogs 3 times. On their first visit they go through an interview - to "
+"see if the person will be a responsible owner and what dogs will be "
+"suitable. The person is then introduced to dogs to choose from. The second "
+"visit is \"to make sure\". On the third a contact can be signed and the "
+"person goes home with his new friend. If you have trouble getting around or "
+"are from another city, write us, we will try to help."
+msgstr ""
+"Процедурата за осиновявания е логична и смислена – няма нищо страшно. От "
+"кандидатите се изискват 3 посещения в приюта за опознаване с кучето. При "
+"първото се провежда интервю – наясно ли е с отговорностите човекът, какво "
+"куче е подходящо за живота му и т.н… Второто посещение е за да се утвърди "
+"изборът и да се опознаят малко по-добре новите приятели. На третото "
+"посещение се подписва осиновителски договор, а кучето може да си отиде у "
+"дома. Ако сте трудноподвижни или от друг град – пишете ни, ще се опитаме да "
+"ви улесним."
+
+#: themes/arsofiav6.0/includes/adotpt_info.php:15
+msgid "ADOPTING A CAT"
+msgstr "ОСИНОВЯВАНЕ НА КОТКА"
+
+#: themes/arsofiav6.0/includes/adotpt_info.php:17
+msgid ""
+"All our cats live in foster families. You need to contact us first. The cat "
+"adoption procedure is simple. The interview is conducted by phone. A meeting "
+"is set at a moment, convenient to both sides.  If everything goes well then "
+"the new owners can bring their new friend home immediately after signing an "
+"adoption contract. In some cases the signing of the contract and/or the "
+"meeting take place at the shelter."
+msgstr ""
+"Всички наши котки живеят при приемни стопани. Необходимо е първо да се "
+"свържете с нас. Процедурата за осиновяване на котка е сравнително по-лека. "
+"Интервюто на кандидата се провежда по телефона. Прави се среща в удобно за "
+"приемните стопани време. Ако хората и животинчето се харесат, то може да се "
+"прибере с новите си стопани след като се подпише договор.  В някои случаи "
+"подписването на договора и/или срещата между хора и животинче се провеждат в "
+"приюта."
+
+#: themes/arsofiav6.0/includes/adotpt_info.php:21
+msgid "ADOPTING A FOSTERED DOG"
+msgstr "ОСИНОВЯВАНЕ НА КУЧЕ ОТ ПРИЕМЕН ДОМ"
+
+#: themes/arsofiav6.0/includes/adotpt_info.php:23
+msgid ""
+"You need to contact us first to get in touch with the foster family. It is "
+"not hard to adopt a fostered dog. After you contact us, we will get you in "
+"touch with the fosters. You will need to make an appointment with them - to "
+"meet and get to know the dog in person. If everything goes OK, you will be "
+"asked to come to the shelter for your interview and contract. Afterward, you "
+"can pick up your new best friend from the fosters and take it home."
+msgstr ""
+"Необходимо е първо да се свържете с нас. За да ви свържем с приемните "
+"стопани първо е необходимо да ни пишете. В удобно за двете страни време "
+"можете да се срещнете с кучето, да се опознаете и да решите дали се "
+"харесвате. Ако сте се харесали, идвате до приюта, където се провежда вашето "
+"интервю и се подписва осиновителски договор. Веднага след това можете да "
+"вземете своето ново приятелче у дома."
+
+#: themes/arsofiav6.0/includes/donate-page-top.php:51
+msgid "FUNDS ARE DESPERATELY NEEDED!"
+msgstr "ТЕ НЯМАТ ШАНС БЕЗ ВАШАТА ПОМОЩ!"
+
+#: themes/arsofiav6.0/includes/donate-page-top.php:52
+msgid ""
+"Regular monthly donations are the basic, spinal cord of our income. Creating "
+"a pool of supporters who give a little sum on a regular basis is crucial - "
+"this way we know we have a certain budget and we can continue to save lives, "
+"find homes and care for the unwanted."
+msgstr ""
+"Ежемесечните дарения са базата, върху която стъпваме като организация. Тъй "
+"като се финансираме само и единствено от общността - чрез доброволни "
+"дарения, ние разчитаме на месечния бюджет, който ни отреждате, за да "
+"спасяваме, задомяваме и да се грижим за нежеланите животни от улицата."
+
+#: themes/arsofiav6.0/includes/donate-page-top.php:54
+msgid "Banking details:"
+msgstr "Банкова сметка"
+
+#: themes/arsofiav6.0/includes/donate-page-top.php:56
+msgid "FIRST INVESTMENT BANK"
+msgstr "ПЪРВА ИНВЕСТИЦИОННА БАНКА"
+
+#: themes/arsofiav6.0/includes/donate-page-top.php:57
+msgid "37 Dragan Tzankov blvd, Sofia, BG"
+msgstr "бул. Д. Цанков 37, София, BG"
+
+#: themes/arsofiav6.0/includes/donate-page-top.php:58
+msgid "SWIFT: FINV BG SF"
+msgstr "SWIFT: FINV BG SF"
+
+#: themes/arsofiav6.0/includes/donate-page-top.php:59
+msgid "IBAN for BGN: BG07FINV91501215999954"
+msgstr "IBAN В ЛЕВА: BG07FINV91501215999954"
+
+#: themes/arsofiav6.0/includes/donate-page-top.php:60
+msgid "IBAN for EUR: BG50FINV91501215999956"
+msgstr "IBAN В ЕВРО: BG50FINV91501215999956"
+
+#: themes/arsofiav6.0/includes/donate-page-top.php:61
+msgid "BENEFICIARY: A R Sofia Foundation"
+msgstr "ТИТУЛЯР: Фондация А Р София"
+
+#: themes/arsofiav6.0/includes/donate-page-top.php:62
+msgid "23 James Bourchier blvd, Sofia, BG"
+msgstr "бул.Д.Баучер 23, София, BG"
+
+#: themes/arsofiav6.0/includes/donate-page-top.php:65
+msgid "Donation with ePay"
+msgstr "Дарение чрез  ePay"
+
+#: themes/arsofiav6.0/includes/donate-page-top.php:91
+msgid "Donation with PayPal"
+msgstr "Дарение чрез Пейпал"
+
+#: themes/arsofiav6.0/includes/donate-page-top.php:93
+msgid "Your regular support matters to us! Thank you for caring!"
+msgstr "Вашите редовни дарение са важни за нас. Благодарим!"
+
+#: themes/arsofiav6.0/includes/donate-page-top.php:97
+msgid "Donation Information"
+msgstr "Детайли за дарението"
+
+#: themes/arsofiav6.0/includes/donate-page-top.php:123
+#: themes/arsofiav6.0/includes/donate-shelter-test.php:96
+msgid "https://arsofia.com/thank-you"
+msgstr "https://arsofia.org/thank-you-bg"
+
+#: themes/arsofiav6.0/includes/donate-page-top.php:129
+#: themes/arsofiav6.0/includes/donate-shelter-test.php:102
+#: themes/arsofiav6.0/includes/donate-shelter.php:105
+#: themes/arsofiav6.0/includes/front-navigation_new.php:13
+msgid "Donate"
+msgstr "Дари"
+
+#: themes/arsofiav6.0/includes/donate-page-top.php:134
+#: themes/arsofiav6.0/includes/donate-shelter-test.php:106
+#: themes/arsofiav6.0/includes/donate-shelter.php:109
+msgid ""
+"Info : once you click on 'Donate', you will be transferred to PayPal where "
+"you can enter your payment information."
+msgstr ""
+"Инфо : когато кликнете върху бутона 'Дари', ще бъдете пренасочени към "
+"PayPal, където се въвежда информацията за превода."
+
+#: themes/arsofiav6.0/includes/donate-shelter-test.php:76
+#: themes/arsofiav6.0/includes/donate-shelter.php:79
+msgid "Your Donation"
+msgstr "Вашето дарение"
+
+#: themes/arsofiav6.0/includes/donate-shelter-test.php:134
+#: themes/arsofiav6.0/includes/donate-shelter.php:137
+msgid "First Investment Bank"
+msgstr "Първа инвестиционна банка"
+
+#: themes/arsofiav6.0/includes/donate-shelter-test.php:135
+#: themes/arsofiav6.0/includes/donate-shelter.php:138
+msgid "37 D.Tsankov blvd, Sofia 1797, BULGARIA"
+msgstr "Бул. Драган Цанков 37, София 1797"
+
+#: themes/arsofiav6.0/includes/donate-shelter-test.php:136
+#: themes/arsofiav6.0/includes/donate-shelter.php:139
+msgid "BIC: FINVBGSF"
+msgstr "BIC: FINVBGSF"
+
+#: themes/arsofiav6.0/includes/donate-shelter-test.php:137
+#: themes/arsofiav6.0/includes/donate-shelter.php:140
+msgid "IN EURO (EUR), IBAN: BG50FINV91501215999956"
+msgstr "В ЕВРО (EUR), IBAN: BG50FINV91501215999956"
+
+#: themes/arsofiav6.0/includes/donate-shelter-test.php:138
+#: themes/arsofiav6.0/includes/donate-shelter.php:141
+msgid "IN LEVA (BGN), IBAN: BG07FINV91501215999954"
+msgstr "В ЛЕВА (BGN), IBAN: BG07FINV91501215999954"
+
+#: themes/arsofiav6.0/includes/donate-shelter-test.php:139
+#: themes/arsofiav6.0/includes/donate-shelter.php:142
+msgid "Name: A R Sofia Foundation"
+msgstr "Титуляр: Фондация \"А Р София\""
+
+#: themes/arsofiav6.0/includes/donate-shelter.php:99
+msgid "https://arsofia.com/thank-you/"
+msgstr "https://arsofia.org/thank-you-bg"
+
+#: themes/arsofiav6.0/includes/facebook_recommend_shelter.php:32
+msgid "SHARE"
+msgstr "СПОДЕЛИ"
+
+#: themes/arsofiav6.0/includes/featured.php:19
+msgid "/ribbon.png"
+msgstr "/ribbon-bg.png"
+
+#: themes/arsofiav6.0/includes/front-navigation.php:4
+msgid "/bogrov"
+msgstr "bogrov-bg"
+
+#: themes/arsofiav6.0/includes/front-navigation.php:4
+msgid "/images/front-col/bogrov_banner.jpg"
+msgstr "/images/front-col/bogrov_banner_bg.jpg"
+
+#: themes/arsofiav6.0/includes/front-navigation.php:7
+#: themes/arsofiav6.0/includes/front-navigation_new.php:8
+#: themes/arsofiav6.0/includes/front-navigation_new.php:9
+msgid "/adopt"
+msgstr "/osinovi"
+
+#: themes/arsofiav6.0/includes/front-navigation.php:7
+msgid "/images/front-col/adopt.jpg"
+msgstr "/images/front-col/adopt-bg.jpg"
+
+#: themes/arsofiav6.0/includes/front-navigation.php:10
+#: themes/arsofiav6.0/includes/front-navigation_new.php:12
+#: themes/arsofiav6.0/includes/front-navigation_new.php:13
+msgid "/donate"
+msgstr "/dari"
+
+#: themes/arsofiav6.0/includes/front-navigation.php:10
+msgid "/images/front-col/donate.jpg"
+msgstr "/images/front-col/donate-bg.jpg"
+
+#: themes/arsofiav6.0/includes/front-navigation.php:13
+#: themes/arsofiav6.0/includes/front-navigation_new.php:20
+#: themes/arsofiav6.0/includes/front-navigation_new.php:21
+msgid "/volunteer"
+msgstr "/uchastvai"
+
+#: themes/arsofiav6.0/includes/front-navigation.php:13
+msgid "/images/front-col/volunteer.jpg"
+msgstr "/images/front-col/volunteer-bg.jpg"
+
+#: themes/arsofiav6.0/includes/front-navigation.php:16
+#: themes/arsofiav6.0/includes/front-navigation_new.php:16
+#: themes/arsofiav6.0/includes/front-navigation_new.php:17
+msgid "/neuter"
+msgstr "/kastrirai"
+
+#: themes/arsofiav6.0/includes/front-navigation.php:16
+msgid "/images/front-col/neuter.jpg"
+msgstr "/images/front-col/neuter-bg.jpg"
+
+#: themes/arsofiav6.0/includes/front-navigation.php:19
+msgid "/starving"
+msgstr "/glad"
+
+#: themes/arsofiav6.0/includes/front-navigation.php:19
+msgid "/images/front-col/kremikovtzi.jpg"
+msgstr "/images/front-col/kremikovtzi-bg.jpg"
+
+#: themes/arsofiav6.0/includes/front-navigation_new.php:4
+#: themes/arsofiav6.0/includes/front-navigation_new.php:5
+msgid "/the-farm/"
+msgstr "/fermata/"
+
+#: themes/arsofiav6.0/includes/front-navigation_new.php:4
+msgid "/images/front-col/fermata.png"
+msgstr "/images/front-col/adopt-bg.jpg"
+
+#: themes/arsofiav6.0/includes/front-navigation_new.php:5
+msgid "The Farm"
+msgstr "Фермата"
+
+#: themes/arsofiav6.0/includes/front-navigation_new.php:8
+msgid "/images/front-col/adoptv4.png"
+msgstr "/images/front-col/adopt-bg.jpg"
+
+#: themes/arsofiav6.0/includes/front-navigation_new.php:9
+msgid "Adopt"
+msgstr "Осинови"
+
+#: themes/arsofiav6.0/includes/front-navigation_new.php:12
+msgid "/images/front-col/donatev4.png"
+msgstr "/images/front-col/donate-bg.jpg"
+
+#: themes/arsofiav6.0/includes/front-navigation_new.php:16
+msgid "/images/front-col/neuterv4.png"
+msgstr "/images/front-col/neuter-bg.jpg"
+
+#: themes/arsofiav6.0/includes/front-navigation_new.php:17
+msgid "Neuter"
+msgstr "Кастрирай"
+
+#: themes/arsofiav6.0/includes/front-navigation_new.php:20
+msgid "/images/front-col/volunteerv4.png"
+msgstr "/images/front-col/volunteer-bg.jpg"
+
+#: themes/arsofiav6.0/includes/front-navigation_new.php:21
+msgid "Volunteer"
+msgstr "Доброволци"
+
+#: themes/arsofiav6.0/includes/front-navigation_new.php:24
+#: themes/arsofiav6.0/includes/front-navigation_new.php:25
+#: themes/arsofiav6.0/includes/front-navigation_v2.php:12
+#: themes/arsofiav6.0/includes/front-navigation_v2.php:13
+msgid "/horses-co/"
+msgstr "/kone-i-ko/"
+
+#: themes/arsofiav6.0/includes/front-navigation_new.php:24
+msgid "/images/front-col/kone.png"
+msgstr "/images/front-col/donate-bg.jpg"
+
+#: themes/arsofiav6.0/includes/front-navigation_new.php:25
+msgid "Horses & Co."
+msgstr "Коне & Co."
+
+#: themes/arsofiav6.0/includes/front-navigation_v2.php:5
+msgid "The Farm<br>Shelter"
+msgstr "Приют<br>Фермата"
+
+#: themes/arsofiav6.0/includes/front-navigation_v2.php:9
+msgid "The Franziska<br>Clinic"
+msgstr "Клиника<br>Франциска"
+
+#: themes/arsofiav6.0/includes/front-navigation_v2.php:13
+msgid "The Ranch<br>Sanctuary"
+msgstr "Убежище<br>Ранчото"
+
+#: themes/arsofiav6.0/includes/front-navigation_v2.php:16
+#: themes/arsofiav6.0/includes/front-navigation_v2.php:17
+msgid "/items/blog/"
+msgstr "/items/blog-bg/"
+
+#: themes/arsofiav6.0/includes/front-navigation_v2.php:17
+msgid "A R Sofia<br>Blog"
+msgstr "А Р София<br>Блог"
+
+#: themes/arsofiav6.0/includes/front-navigation_v2.php:20
+#: themes/arsofiav6.0/includes/front-navigation_v2.php:21
+msgid "/donate/"
+msgstr "/dari/"
+
+#: themes/arsofiav6.0/includes/front-navigation_v2.php:21
+msgid "Support<br>our work"
+msgstr "Помогни<br>с дарение"
+
+#: themes/arsofiav6.0/includes/rehomed.php:2
+msgid "A film about our work"
+msgstr "Филм за нашата работа"
+
+#: themes/arsofiav6.0/includes/shelter-message.php:2
+msgid "/a-happy-new-beginning-in-2014/"
+msgstr "chestito-novo-nachalo-prez-2014-ta-godina/"
+
+#: themes/arsofiav6.0/includes/shelter-message.php:4
+msgid "https://files.arsofia.com/uploads/2014/01/hdog1.png"
+msgstr "https://files.arsofia.com/uploads/2013/10/attention-hi-r1-c11.png"
+
+#: themes/arsofiav6.0/includes/shelter-message.php:5
+msgid ""
+"Dear friends, we have moved to our Farm along with all the dogs. We work "
+"hard every day to turn the Farm into a real shelter. A few hard months of "
+"works and repairs are ahead and of course - help is welcome - both "
+"construction materials and volunteer workforce will come in handy. You can "
+"read more about the translocation <span style=\"color:sienna; font-weight:"
+"bold;\"> HERE!</span>"
+msgstr ""
+"Скъпи приятели, вече сме в нашата Ферма – ние и всички кучета. Работим всеки "
+"ден, за да я превърнем в истински приют. Очакват ни няколко месеца ремонтна "
+"дейност и разбира се – приемаме помощ – както материали, така и доброволен "
+"труд . Повече за преместването ни ще намерите <span style=\"color:sienna; "
+"font-weight:bold;\"> ТУК. </span>"
+
+#: themes/arsofiav6.0/includes/shelter-message.php:6
+msgid ""
+"Although we are admitting and neutering at this point, we have our 200 dogs "
+"with us and they are eagerly waiting for adopters and their most favorite "
+"volunteers for walks and joy. You are welcome!"
+msgstr ""
+"Макар и да не приемаме нови животни на този етап и да не можем да извършваме "
+"кастрации, с нас са нашите 200 кучета, които очакват осиновителите си и "
+"прекрасните доброволци за разходки и радости. Добре дошли сте!"
+
+#: themes/arsofiav6.0/includes/video.php:5
+msgid "RECENT VIDEOS"
+msgstr "ПОСЛЕДНИ КЛИПОВЕ"
+
+#: themes/arsofiav6.0/includes/video.php:6
+msgid "Click below to view videos..."
+msgstr "Избери видео от списъка..."
+
+#: themes/arsofiav6.0/includes/video.php:35
+msgid "Read the rest of this entry &raquo;"
+msgstr "Чети още &raquo;"
+
+#: themes/arsofiav6.0/includes/video_ex.php:2
+msgid "calendar_front.jpg"
+msgstr "calendar_front.jpg"
+
+#: themes/arsofiav6.0/includes/welcome-message.php:2
+msgid "Welcome to our webpage"
+msgstr "Добре дошли в страниците на Animal Rescue Sofia"
+
+#: themes/arsofiav6.0/includes/welcome-message.php:4
+msgid ""
+"<p>There are real live people standing behind everything we manage to "
+"achieve. For every rescued, every healed, every rehomed little pet, there "
+"are kind-hearted people who have given their best to succeed.</p><p>Our "
+"cause has many supporters. Many opponents as well. We thank you for being "
+"here. Because nothing would work if it was not for each of us coming to a "
+"point where we realise: I want to help and I will. Here. Today. Me.</"
+"p><p>The Bulgarian reality will be as we make it. We have created Animal "
+"Rescue Sofia to work on the humane and proffecional solution to the stray "
+"dog population in the country.</p><p>We are here to help. We are here to "
+"save lives.</p><p><b>Thank you for being one of us. Together we can achieve "
+"so much more!</b></p>"
+msgstr ""
+"<p>Зад всичко, което успяваме да постигнем, зад всяко спасено, всяко "
+"излекувано, всяко задомено животинче стоят конкретни отдадени хора с големи "
+"сърца.</p><p>Нашата кауза има много поддръжници. Много противници също. "
+"Благодарим ви, че сте тук. Защото нищо нямаше да може да случи, ако всеки "
+"един от нас не беше си казал: искам, мога, ще помогна. Днес. Тук. Аз.</"
+"p><p>Реалността в България ще бъде такава, каквато я направим. Създадохме "
+"Animal Rescue Sofia, за да работим за хуманно и професионално решаване на "
+"проблема с бездомните животни.</p><p>Събрали сме се, за да помогнем. Събрали "
+"сме се, за да спасяваме живот.</p><p><b>Благодарим ви, че сте сред нас. "
+"Заедно можем да постигнем толкова много!</b></p>"
+
+#: themes/arsofiav6.0/latest_ars.php:2
+msgid "Latest from the blog"
+msgstr "Последно от блога"
+
+#: themes/arsofiav6.0/latest_ars.php:2 themes/arsofiav6.0/latest_ars.php:32
+msgid "Read Blog"
+msgstr "Още от блога"
+
+#: themes/arsofiav6.0/news_box.php:3
+msgid "items/the-farm-newsflash"
+msgstr "items/fermata-newsflash"
+
+#: themes/arsofiav6.0/news_box.php:3
+msgid "All news from The Farm"
+msgstr "Всички новини от Фермата"
+
+#: themes/arsofiav6.0/news_box.php:3
+msgid "The Farm Newsflash"
+msgstr "Новини от Фермата"
+
+#: themes/arsofiav6.0/news_box.php:36
+msgid "All news"
+msgstr "Всички"
+
+#: themes/arsofiav6.0/news_box.php:36
+msgid "News"
+msgstr "Новини от АРС"
+
+#: themes/arsofiav6.0/page-donate.php:13
+#: themes/arsofiav6.0/single-horses.php:19 themes/arsofiav6.0/single.php:14
+msgid "Thank You"
+msgstr "Благодарим ви"
+
+#: themes/arsofiav6.0/page-donate.php:15
+msgid ""
+"Thank you for making a donation. It will be wisely and carefully spent in "
+"the mission to stop the suffering of homeless animals in Sofia."
+msgstr ""
+"Благодарим ви, че дарявате. Ще използваме, отделените от вас средства, за да "
+"продължим да помагаме на бездомните и страдащи животни."
+
+#: themes/arsofiav6.0/page-wide.php:17
+msgid "An ARS Shelter"
+msgstr "Мечтаният приют"
+
+#: themes/arsofiav6.0/page-wide.php:19
+msgid "Donate Today"
+msgstr "Дарете сега"
+
+#: themes/arsofiav6.0/page-wide.php:21
+msgid "Frequently Asked Questions"
+msgstr "Често задавани въпроси"
+
+#: themes/arsofiav6.0/page-wide.php:23
+msgid "Our Donors"
+msgstr "Нашите дарители"
+
+#: themes/arsofiav6.0/page-wide.php:26
+msgid "Read in German"
+msgstr "Read in German"
+
+#: themes/arsofiav6.0/page-wide.php:48
+msgid "Scroll to top"
+msgstr "Обратно горе"
+
+#: themes/arsofiav6.0/search.php:9
+#, php-format
+msgid "'%s'"
+msgstr "'%s'"
+
+#: themes/arsofiav6.0/sidebar.php:17
+msgid "Dashboard"
+msgstr "Табло"
+
+#: themes/arsofiav6.0/single-animals.php:39
+#: themes/arsofiav6.0/single-animals.php:82
+#: themes/arsofiav6.0/single-video.php:15
+msgid "Edit"
+msgstr "Редакция"
+
+#: themes/arsofiav6.0/single-animals.php:48
+#: themes/arsofiav6.0/single-animals.php:94
+msgid "Type"
+msgstr "Тип"
+
+#: themes/arsofiav6.0/single-animals.php:49
+#: themes/arsofiav6.0/single-animals.php:95
+msgid "Gender"
+msgstr "Пол"
+
+#: themes/arsofiav6.0/single-animals.php:50
+#: themes/arsofiav6.0/single-animals.php:96
+msgid "Age"
+msgstr "Възраст"
+
+#: themes/arsofiav6.0/single-animals.php:52
+#: themes/arsofiav6.0/single-animals.php:106
+msgid "Status*"
+msgstr "Статус*"
+
+#: themes/arsofiav6.0/single-animals.php:56
+#: themes/arsofiav6.0/single-animals.php:113
+msgid "This animal is unavailable."
+msgstr "Този запис е недостъпен."
+
+#: themes/arsofiav6.0/single-animals.php:56
+#: themes/arsofiav6.0/single-animals.php:113
+msgid "Back to animals"
+msgstr "Всички животни"
+
+#: themes/arsofiav6.0/single-animals.php:58
+#: themes/arsofiav6.0/single-animals.php:116
+msgid "Want to Adopt? Contact us!"
+msgstr "За осиновяване се свържете с нас!"
+
+#: themes/arsofiav6.0/single-animals.php:58
+#: themes/arsofiav6.0/single-animals.php:116
+msgid "Back to results"
+msgstr "Към резултатите"
+
+#: themes/arsofiav6.0/single-animals.php:58
+#: themes/arsofiav6.0/single-animals.php:116
+msgid "All Animals"
+msgstr "Всички животни"
+
+#: themes/arsofiav6.0/single-animals.php:75
+msgid "Outdated Record. Return to all Animals."
+msgstr "Изтекъл запис. Връщане към всички животни."
+
+#: themes/arsofiav6.0/single-animals.php:97
+msgid "Size"
+msgstr "Размер"
+
+#: themes/arsofiav6.0/single-animals.php:98
+msgid "Description"
+msgstr "Описание"
+
+#: themes/arsofiav6.0/single-animals.php:100
+msgid "Video"
+msgstr "Видео"
+
+#: themes/arsofiav6.0/single-animals.php:104
+msgid "Note*"
+msgstr "Бележка*"
+
+#: themes/arsofiav6.0/single-animals.php:107
+msgid "File ID*"
+msgstr "File ID*"
+
+#: themes/arsofiav6.0/single-animals.php:109
+msgid "Shelter Date*"
+msgstr "Дата на приемане*"
+
+#: themes/arsofiav6.0/single-animals.php:124
+msgid "More animals"
+msgstr "Още животни"
+
+#: themes/arsofiav6.0/single-horses.php:21 themes/arsofiav6.0/single.php:16
+msgid ""
+"Thank you for making a donation. It will be wisely and carefully spent in "
+"the mission to stop the suffering of homeless animals in Sofia. Click <a "
+"href=\"https://arsofia.com/donate/\">here</a> for more information."
+msgstr ""
+"Благодарим ви, че отделяте средства. Те ще бъдат пестеливо разпределени за "
+"най-нуждаещите се животни. Кликнете <a href=\"https://arsofia.com/bg/dari/"
+"\">тук</a> за повече информация."
+
+#, fuzzy
+#~ msgid "/images/frcol/fermata.jpg"
+#~ msgstr "/images/front-col/adopt-bg.jpg"
+
+#, fuzzy
+#~ msgid "/images/frcol/franziska.jpg"
+#~ msgstr "/images/front-col/adopt-bg.jpg"
+
+#~ msgid "/images/frcol/kone.jpg"
+#~ msgstr "/images/front-col/donate-bg.jpg"
+
+#~ msgid "/images/frcol/kucheta.jpg"
+#~ msgstr "/images/front-col/neuter-bg.jpg"
+
+#~ msgid "/images/frcol/donate.jpg"
+#~ msgstr "/images/front-col/donate-bg.jpg"
+
+#~ msgid "Join Animal Rescue Sofia now!"
+#~ msgstr "Присъедини се към нас!"
+
+#~ msgid "/pets-u-helps-ar-sofia"
+#~ msgstr "/pets-u-pomaga-na-ar-sofia"
+
+#~ msgid "/images/front-col/petsandu.png"
+#~ msgstr "/images/front-col/petsandu.png"
+
+#~ msgid "Shop"
+#~ msgstr "Магазин"
+
+#~ msgid "Send SMS:"
+#~ msgstr "Изпрати SMS:"
+
+#~ msgid "DMS DOG"
+#~ msgstr "DMS DOG"
+
+#~ msgid "to mobile"
+#~ msgstr "на номер"
+
+#~ msgid "17 777"
+#~ msgstr "17 777"
+
+#~ msgid "1 lev - VIVACOM, Telenor and M-Tel"
+#~ msgstr "1 лев за абонати на Vivacom, Telenor and M-Tel"
+
+#~ msgid ""
+#~ "Animal Rescue Sofia respects the privacy of its donors. We do not sell or "
+#~ "exchange any individual donor information. The ARSofia Foundation is "
+#~ "registered as an operator of personal ID data at the Bulgarian Commission "
+#~ "for Protection of Personal Data."
+#~ msgstr ""
+#~ "Фондация „АР София“ уважава анонимността на дарителите. Ние не продаваме "
+#~ "или обменяме личните данни на нашите дарители. Фондацията е регистрирана "
+#~ "като администратор на лични данни в Комисията за защита на личните данни "
+#~ "на Република България."
+
+#~ msgid "https://arsofia.com/uploads/2010/03/thank-you-EN.jpg"
+#~ msgstr "https://arsofia.com/uploads/2010/03/thank-you-BG.jpg"
+
+#~ msgid "A cry for help"
+#~ msgstr "Зов за помощ"
+
+#~ msgid "/shelter"
+#~ msgstr "priut"
+
+#, fuzzy
+#~ msgid "/images/front-col/new_shelter.png"
+#~ msgstr "/images/front-col/neuter-bg.jpg"
+
+#~ msgid "ARS Shelter"
+#~ msgstr "Приют АРС"
+
+#~ msgid "Status*:"
+#~ msgstr "Статус*"
+
+#~ msgid "Says:"
+#~ msgstr "Написа"
+
+#~ msgid "Want to Adopt? Contact with us!"
+#~ msgstr "За осиновяване се свържете с нас!"
+
+#~ msgid "/the-farm-is-ours/"
+#~ msgstr "/fermata-e-nasha/"
+
+#~ msgid "Dear friends, dear miracle-workers, dear angels, WE DID IT!!!"
+#~ msgstr "Уважаеми приятели, скъпи чудотворци, ангели, УСПЯХМЕ!!! "
+
+#~ msgid ""
+#~ "ARSofia now has it's very own Farm where we will continue caring for the "
+#~ "saddest creatures of our city - the homeless dogs and cats. From today - "
+#~ "18.12.2013, till the wonderful day when there will be no more suffering "
+#~ "animals in our streets to look after!"
+#~ msgstr ""
+#~ "АРСофия вече има своята мечтана Ферма, където заедно ще продължим да се "
+#~ "грижим за най-тъжните жители на града ни - бездомните котки и кучета, от "
+#~ "днес (18.12.2013) до прекрасния ден, в който вече няма да има страдалци "
+#~ "по улиците ни!"
+
+#~ msgid ""
+#~ "We thank you for joining us, we thank you for making space for the "
+#~ "troubled animals in your huge hearts, we thank you for giving from the "
+#~ "little you have so they can be happy too! We wish you the most wondeful "
+#~ "hollidays, filled with love, light and happiness!<span style=\"color:"
+#~ "sienna; font-weight:bold;\"> Learn more!</span>"
+#~ msgstr ""
+#~ "Благодарим ви, че сте с нас, че огромните ви сърца имат място за толкова "
+#~ "много приятели в беда, че дадохте от малкото, което имате, за да бъдат "
+#~ "щастливи и те! Пожелаваме ви светли празници, изпълнени с любов и "
+#~ "щастливи мигове! <span style=\"color:sienna; font-weight:bold;\"> Научете "
+#~ "повече.</span>"
+
+#~ msgid "Specal pets"
+#~ msgstr "Специални"
+
+#~ msgid "Fostered dogs"
+#~ msgstr "Приемни кучета"
+
+#~ msgid "Our Cats"
+#~ msgstr "Нашите котки"
+
+#~ msgid "Any"
+#~ msgstr "Всички"
+
+#~ msgid "0-6 months"
+#~ msgstr "0-6 месеца"
+
+#~ msgid "6-18 months"
+#~ msgstr "6-18 месеца"
+
+#~ msgid "1,5 - 3 years"
+#~ msgstr "1,5 - 3 години"
+
+#~ msgid "3-8 years"
+#~ msgstr "3-8 години"
+
+#~ msgid "9+ years"
+#~ msgstr "9+ години"
+
+#, fuzzy
+#~ msgid "Latest entries"
+#~ msgstr "Последни новини"
+
+#~ msgid "Animal Rescue Bulgaria Foundation"
+#~ msgstr "Фондация \"Помощ за животните - България\""
+
+#~ msgid "BIC: PRCBBGSF"
+#~ msgstr "BIC: PRCBBGSF"
+
+#~ msgid "ProCredit Bank"
+#~ msgstr "ПроКредит"
+
+#~ msgid "IN LEVA (BGN): IBAN: BG54PRCB92301033111017"
+#~ msgstr "В ЛЕВА (BGN): IBAN: BG54PRCB92301033111017"
+
+#~ msgid "IN EURO (EUR): IBAN: BG04PRCB92301433111011"
+#~ msgstr "IN ЕВРО (EUR): IBAN: BG04PRCB92301433111011"
+
+#~ msgid "News from Bogrov"
+#~ msgstr "Новини от Богров"
+
+#, fuzzy
+#~ msgid "/images/front-col/bogrovv4.png"
+#~ msgstr "/images/front-col/bogrov_banner_bg.jpg"
+
+#~ msgid "Bogrov"
+#~ msgstr "Богров"
+
+#~ msgid "Soecial"
+#~ msgstr "Специално"
+
+#~ msgid "Post a comment"
+#~ msgstr "Коментирай"
+
+#~ msgid "One comment"
+#~ msgstr "Един коментар"
+
+#~ msgid ""
+#~ "Dear friends, our shelter is being shut down and there is a real risk "
+#~ "that we might stop working, as there is no place to do so."
+#~ msgstr ""
+#~ "Скъпи приятели, затварят приюта ни и има реален риск да прекъснем "
+#~ "работата си, защото няма къде да продължим да работим."
+
+#~ msgid ""
+#~ "We need to urgently raise money for the purchasing of a decent farm "
+#~ "nearby where we can continue helping the orphans of our city."
+#~ msgstr ""
+#~ "Необходимо е спешно да съберем пари за закупуването на удобна ферма "
+#~ "недалеч от настоящото ни място, за да може Animal Rescue Sofia да остане "
+#~ "да работи за бездомничетата на града."
+
+#~ msgid ""
+#~ "Please, read about it and if you care if we go forth or not, do help - "
+#~ "the dogs really need you today. Thank you!<span style=\"color:sienna; "
+#~ "font-weight:bold;\"> Click here to learn how.</span>"
+#~ msgstr ""
+#~ "Молим, запознайте се със ситуацията и ако ви е грижа дали ще ни има – "
+#~ "помогнете според възможностите си – днес кучетата наистина имат нужда от "
+#~ "вас. Благодарим ви!<span style=\"color:sienna; font-weight:bold;\"> "
+#~ "Щракнете тук, за да научите повече.</span>"
