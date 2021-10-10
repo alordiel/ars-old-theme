@@ -31,7 +31,7 @@ $wiki_loop = new WP_Query($wiki_args);
 	<?php unset($photo);
 	if (current_theme_supports('post-thumbnails') && has_post_thumbnail()) {
 		$c_thumb_url = wp_get_attachment_image_src(get_post_thumbnail_id(), 'thumb');
-		$photo = $c_thumb_url[0];
+		$photo = $c_thumb_url!== false ? $c_thumb_url[0] : false;
 	} else {
 		$photo = catch_that_image($post->ID);
 	}
