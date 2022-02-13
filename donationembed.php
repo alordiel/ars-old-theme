@@ -14,8 +14,8 @@ jQuery(document).ready(function(){
       jQuery("#oneTimeGiftDiv").show();
       jQuery("#extraDetails").html('<input type="hidden" name="cmd" value="_donations">');
     }
-  });        
- 
+  });
+
   jQuery("#contactForm").validate({
     submitHandler: function(form) {
       jQuery.post("https://arsofia.com/paypal.php",jQuery("#contactForm").serialize(), function (data, textStatus) {
@@ -27,8 +27,8 @@ jQuery(document).ready(function(){
         }
       }, "json");
      },
- 
-    rules: {			
+
+    rules: {
       fname: "required",
       lname: "required",
       email: {
@@ -39,13 +39,13 @@ jQuery(document).ready(function(){
         required: true,
         equalTo: "#email"
       }
-    }   
+    }
     });
 
     jQuery('#email_confirm').change(function(){
         jQuery("#contactForm").validate().element('#email_confirm');
     });
-  }); 
+  });
 </script>
 <div class="ars-donations-embed-wrapper">
 <div id="archivebox-page-nav" class="donate-box">
@@ -97,7 +97,8 @@ jQuery(document).ready(function(){
       <table class="epay-view" cellspacing="1" cellpadding="4">
         <tbody>
           <tr>
-            <td class="ep1 epay-view-name"><div style="float: left;margin-top: 10px;padding-right: 8px;" align="left"><a href="https://www.epay.bg/" target="_blank"><img  width="55" height="15" src="https://files.arsofia.com/uploads/2013/09/epay-logo.png"></a></div>
+            <td class="ep1 epay-view-name"><div style="float: left;margin-top: 10px;padding-right: 8px;" align="left"><a href="https://www.epay.bg/" target="_blank">
+						<img  width="55" height="15" src="https://arsofia.com/wp-content/uploads/2013/09/epay-logo.png"></a></div>
               <input class="fl" style="font-size:18px;text-align: right;" name="TOTAL" value="20" size="4" type="text" />
               &nbsp;&nbsp;Лева </td>
           </tr>
@@ -134,7 +135,7 @@ jQuery(document).ready(function(){
       </p>
     </div>
     <div class="dms-embed-image">
-    	<img  width="586" height="52" src="https://files.arsofia.com/uploads/2015/12/dms-embed.png"> 
+    	<img  width="586" height="52" src="https://arsofia.com/wp-content/uploads/2015/12/dms-embed.png">
     </div>
     <div class="dms-embed-mobile">
     	<div class="dms-mobile-inner">

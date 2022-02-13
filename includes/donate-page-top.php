@@ -1,4 +1,4 @@
-<script type="text/javascript"> 
+<script type="text/javascript">
 function gogo() {
     jQuery("#ppGo").show();
 }
@@ -14,8 +14,8 @@ jQuery(document).ready(function(){
       jQuery("#oneTimeGiftDiv").show();
       jQuery("#extraDetails").html('<input type="hidden" name="cmd" value="_donations">');
     }
-  });        
- 
+  });
+
   jQuery("#contactForm").validate({
     submitHandler: function(form) {
       $.post("paypal.php",jQuery("#contactForm").serialize(), function (data, textStatus) {
@@ -27,8 +27,8 @@ jQuery(document).ready(function(){
         }
       }, "json");
      },
- 
-    rules: {			
+
+    rules: {
       fname: "required",
       lname: "required",
       email: {
@@ -39,20 +39,20 @@ jQuery(document).ready(function(){
         required: true,
         equalTo: "#email"
       }
-    }   
+    }
     });
 
     jQuery('#email_confirm').change(function(){
         jQuery("#contactForm").validate().element('#email_confirm');
     });
-  }); 
+  });
 </script>
-<div id="archivebox-page-nav">   
+<div id="archivebox-page-nav">
 	<h2><?php _e('FUNDS ARE DESPERATELY NEEDED!','arsofia'); ?></h2>
 	<p><?php _e('Regular monthly donations are the basic, spinal cord of our income. Creating a pool of supporters who give a little sum on a regular basis is crucial - this way we know we have a certain budget and we can continue to save lives, find homes and care for the unwanted.','arsofia'); ?></p>
     <div id="left-box" class="fl">
     <h3 class="donateh"><?php _e('Banking details:', 'arsofia'); ?></h3>
-    <div align="center"><a href="https://www.fibank.bg/" target="_blank"><img  width="110" height="30" src="https://files.arsofia.com/uploads/2013/09/bgr-logo.png"></a></div>
+    <div align="center"><a href="https://www.fibank.bg/" target="_blank"><img  width="110" height="30" src="https://arsofia.com/wp-content/uploads/2013/09/bgr-logo.png"></a></div>
         <p><strong><?php _e('FIRST INVESTMENT BANK', 'arsofia'); ?></strong></p>
         <p><strong><?php _e('37 Dragan Tzankov blvd, Sofia, BG', 'arsofia'); ?></strong></p>
         <p><strong><?php _e('SWIFT: FINV BG SF', 'arsofia'); ?></strong></p>
@@ -63,7 +63,7 @@ jQuery(document).ready(function(){
     </div>
     <div id="right-box" class="fl">
     <h3 class="donateh"><?php _e('Donation with ePay','arsofia') ?></h3>
-    <div align="center"><a href="https://www.epay.bg/" target="_blank"><img  width="110" height="30" src="https://files.arsofia.com/uploads/2013/09/epay-logo.png"></a></div>
+    <div align="center"><a href="https://www.epay.bg/" target="_blank"><img  width="110" height="30" src="https://arsofia.com/wp-content/uploads/2013/09/epay-logo.png"></a></div>
     <form action="https://www.epay.bg/" method="post">
     <table class="epay-view" style="width: 285px;margin-top: 16px;" cellspacing="1" cellpadding="4">
     <tbody>
@@ -92,45 +92,45 @@ jQuery(document).ready(function(){
          <div align="center"><a href="https://www.paypal.com/" target="_blank"><img  width="110" height="30" src="<?php echo bloginfo('template_url'); _e('/images/paypal_logo.gif', 'arsofia'); ?>"></a></div>
         <p><?php _e('Your regular support matters to us! Thank you for caring!','arsofia') ?></p>
         <div id="donate-left" style="padding-bottom: 40px;">
-       <form id="contactForm" action="https://www.paypal.com/cgi-bin/webscr" method="post"> 
-      <div id="statusMsg"></div> 
-      <h3><?php _e('Donation Information','arsofia') ?></h3> 
-      <div class="formDiv"> 
+       <form id="contactForm" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+      <div id="statusMsg"></div>
+      <h3><?php _e('Donation Information','arsofia') ?></h3>
+      <div class="formDiv">
         <input type="radio" name="giftType" value="One Time Gift" id="chooseOneTime" checked="checked" /><?php _e('One Time Donation:','arsofia') ?>
-        <input type="radio" name="giftType" value="Monthly Gift" id="chooseMonthly" /><?php _e('Monthly Donation:','arsofia') ?></div> 
-      <div class="formDiv" id="oneTimeGiftDiv"> 
-        <select name="amount" id="amount"> 
-          <option value="10" selected="selected">10 <?php _e('Euro','arsofia') ?></option> 
+        <input type="radio" name="giftType" value="Monthly Gift" id="chooseMonthly" /><?php _e('Monthly Donation:','arsofia') ?></div>
+      <div class="formDiv" id="oneTimeGiftDiv">
+        <select name="amount" id="amount">
+          <option value="10" selected="selected">10 <?php _e('Euro','arsofia') ?></option>
           <option value="20">20 <?php _e('Euro','arsofia') ?></option>
           <option value="30">30 <?php _e('Euro','arsofia') ?></option>
           <option value="40">40 <?php _e('Euro','arsofia') ?></option>
-          <option value="50">50 <?php _e('Euro','arsofia') ?></option> 
-          <option value="100">100 <?php _e('Euro','arsofia') ?></option> 
-          <option value="200">200 <?php _e('Euro','arsofia') ?></option> 
+          <option value="50">50 <?php _e('Euro','arsofia') ?></option>
+          <option value="100">100 <?php _e('Euro','arsofia') ?></option>
+          <option value="200">200 <?php _e('Euro','arsofia') ?></option>
           <option value="500">500 <?php _e('Euro','arsofia') ?></option>
-        </select> 
-      </div> 
-      <div class="formDiv" id="amountDiv"> 
-        <input style="border:1px solid #999999;" type="text" id="a3" name="a3" size="10" maxlength="5" class="textFields state_zip" /><span> <?php _e('Euro','arsofia') ?></span> 
-      </div> 
+        </select>
+      </div>
+      <div class="formDiv" id="amountDiv">
+        <input style="border:1px solid #999999;" type="text" id="a3" name="a3" size="10" maxlength="5" class="textFields state_zip" /><span> <?php _e('Euro','arsofia') ?></span>
+      </div>
       <input type="hidden" name="business" value="LMCMQQ93CSRZG">
-      <input type="hidden" name="lc" value="EUR"> 
-      <input type="hidden" name="item_name" value="Donation">  
-      <input type="hidden" name="item_number" value="donation"> 
-      <input type="hidden" name="no_note" value="1"> 
-      <input type="hidden" name="no_shipping" value="1"> 
-      <input type="hidden" name="rm" value="1"> 
-      <input type="hidden" name="return" value="<?php _e('https://arsofia.com/thank-you') ?>"> 
-      <input type="hidden" name="currency_code" value="EUR"> 
-      <input type="hidden" name="submitted_btn" value="submit"> 
-      <span id="extraDetails"> 
-        <input type="hidden" name="cmd" value="_donations"> 
-      </span>   
-      <input class="pay-button button_blue" type="submit" name="submitted_btn" value="<?php _e('Donate','arsofia') ?>">     
+      <input type="hidden" name="lc" value="EUR">
+      <input type="hidden" name="item_name" value="Donation">
+      <input type="hidden" name="item_number" value="donation">
+      <input type="hidden" name="no_note" value="1">
+      <input type="hidden" name="no_shipping" value="1">
+      <input type="hidden" name="rm" value="1">
+      <input type="hidden" name="return" value="<?php _e('https://arsofia.com/thank-you') ?>">
+      <input type="hidden" name="currency_code" value="EUR">
+      <input type="hidden" name="submitted_btn" value="submit">
+      <span id="extraDetails">
+        <input type="hidden" name="cmd" value="_donations">
+      </span>
+      <input class="pay-button button_blue" type="submit" name="submitted_btn" value="<?php _e('Donate','arsofia') ?>">
       <span id="ppGo" style="display:none;">
           <img src="<?php bloginfo('template_url'); ?>/images/pay-loader.gif" align="absmiddle" /> <?php _e('Please wait...','arsofia') ?></span>
     </form>
-    
+
         <p><small><?php _e('Info : once you click on \'Donate\', you will be transferred to PayPal where you can enter your payment information.','arsofia') ?></small></p></div>
     </div>
 <?php } ?>

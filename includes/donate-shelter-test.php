@@ -10,22 +10,22 @@ jQuery(function() {
     jQuery("#columns h4.expand").toggler();
     jQuery("#columns div.shelter-faq").expandAll({trigger: "h3.expand", ref: "h3.expand"});
     jQuery("#columns div.other").expandAll({
-      expTxt : "[Show]", 
+      expTxt : "[Show]",
       cllpsTxt : "[Hide]",
       ref : "ul.collapse",
       showMethod : "show",
       hideMethod : "hide"
     });
     jQuery("#columns div.post").expandAll({
-      expTxt : "[Read this entry]", 
+      expTxt : "[Read this entry]",
       cllpsTxt : "[Hide this entry]",
-      ref : "div.collapse", 
-      localLinks: "p.top a"    
-    });    
+      ref : "div.collapse",
+      localLinks: "p.top a"
+    });
 });
 //--><!]]>
 </script>
-<script type="text/javascript"> 
+<script type="text/javascript">
 jQuery(document).ready(function(){
   jQuery('#amountDiv').hide();
   jQuery('input:radio[name=giftType]').click(function() {
@@ -38,7 +38,7 @@ jQuery(document).ready(function(){
       jQuery("#oneTimeGiftDiv").show();
       jQuery("#extraDetails").html('<input type="hidden" name="cmd" value="_donations">');
     }
-  });    
+  });
   jQuery("#contactForm").validate({
     submitHandler: function(form) {
       $.post("paypal.php",jQuery("#contactForm").serialize(), function (data, textStatus) {
@@ -50,7 +50,7 @@ jQuery(document).ready(function(){
         }
       }, "json");
      },
-    rules: {			
+    rules: {
       fname: "required",
       lname: "required",
       email: {
@@ -68,45 +68,45 @@ jQuery(document).ready(function(){
     });
   });
 </script>
-    <div id="left-box" class="fl">	
+    <div id="left-box" class="fl">
                         <div align="center"><a href="https://www.paypal.com/" target="_blank"><img  width="110" height="30" src="<?php echo bloginfo('template_url'); _e('/images/paypal_logo.gif', 'arsofia'); ?>"></a></div>
         <div id="donate-left">
-       <form id="contactForm" action="https://www.paypal.com/cgi-bin/webscr" method="post"> 
-      <div id="statusMsg"></div> 
+       <form id="contactForm" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+      <div id="statusMsg"></div>
       <h3 style="float:none;border-top: none;margin-top: 0;padding-bottom: 0;"><?php _e('Your Donation','arsofia') ?></h3>
-      <div class="formDiv"> 
+      <div class="formDiv">
         <input type="radio" name="giftType" value="One Time Gift" id="chooseOneTime" checked="checked" /><?php _e('One Time Donation:','arsofia') ?>
         <input type="radio" name="giftType" value="Monthly Gift" id="chooseMonthly" /><?php _e('Monthly Donation:','arsofia') ?>
-      </div> 
-      <div class="formDiv" id="oneTimeGiftDiv"> 
-        <select name="amount" id="amount" style="display:none"> 
+      </div>
+      <div class="formDiv" id="oneTimeGiftDiv">
+        <select name="amount" id="amount" style="display:none">
 <input style="border:1px solid #999999;" type="text" id="amount" name="amount" size="10" maxlength="5" class="textFields state_zip" /><span> <?php _e('Euro','arsofia') ?></span>
-        </select> 
-      </div> 
-      <div class="formDiv" id="amountDiv"> 
-        <input style="border:1px solid #999999;" type="text" id="a3" name="a3" size="10" maxlength="5" class="textFields state_zip" /><span> <?php _e('Euro','arsofia') ?></span> 
-      </div> 
+        </select>
+      </div>
+      <div class="formDiv" id="amountDiv">
+        <input style="border:1px solid #999999;" type="text" id="a3" name="a3" size="10" maxlength="5" class="textFields state_zip" /><span> <?php _e('Euro','arsofia') ?></span>
+      </div>
 <input type="hidden" name="business" value="LMCMQQ93CSRZG">
-      <input type="hidden" name="lc" value="EUR"> 
-      <input type="hidden" name="item_name" value="Donation">  
-      <input type="hidden" name="item_number" value="donation"> 
-      <input type="hidden" name="no_note" value="1"> 
-      <input type="hidden" name="no_shipping" value="1"> 
-      <input type="hidden" name="rm" value="1"> 
-      <input type="hidden" name="return" value="<?php _e('https://arsofia.com/thank-you') ?>"> 
-      <input type="hidden" name="currency_code" value="EUR"> 
-      <input type="hidden" name="submitted_btn" value="submit"> 
-      <span id="extraDetails"> 
-        <input type="hidden" name="cmd" value="_donations"> 
-      </span>   
-      <input class="pay-button button_blue" type="submit" name="submitted_btn" value="<?php _e('Donate','arsofia') ?>">     
+      <input type="hidden" name="lc" value="EUR">
+      <input type="hidden" name="item_name" value="Donation">
+      <input type="hidden" name="item_number" value="donation">
+      <input type="hidden" name="no_note" value="1">
+      <input type="hidden" name="no_shipping" value="1">
+      <input type="hidden" name="rm" value="1">
+      <input type="hidden" name="return" value="<?php _e('https://arsofia.com/thank-you') ?>">
+      <input type="hidden" name="currency_code" value="EUR">
+      <input type="hidden" name="submitted_btn" value="submit">
+      <span id="extraDetails">
+        <input type="hidden" name="cmd" value="_donations">
+      </span>
+      <input class="pay-button button_blue" type="submit" name="submitted_btn" value="<?php _e('Donate','arsofia') ?>">
       <span id="ppGo" style="display:none;">
           <img src="<?php bloginfo('template_url'); ?>/images/pay-loader.gif" align="absmiddle" /> <?php _e('Please wait...','arsofia') ?></span>
-    </form>  
+    </form>
         <p><small><?php _e('Info : once you click on \'Donate\', you will be transferred to PayPal where you can enter your payment information.','arsofia') ?></small></p></div>
     </div>
     <div id="right-box" class="fl" style="margin-bottom: -30px;">
-    <div align="center" style="padding-bottom: 25px;"><a href="https://www.epay.bg/" target="_blank"><img  width="110" height="30" src="https://files.arsofia.com/uploads/2013/09/epay-logo.png"></a></div>
+    <div align="center" style="padding-bottom: 25px;"><a href="https://www.epay.bg/" target="_blank"><img  width="110" height="30" src="https://arsofia.com/wp-content/uploads/2013/09/epay-logo.png"></a></div>
     <form action="https://www.epay.bg/" method="post">
     <table class="epay-view" style="width: 285px;" cellspacing="1" cellpadding="4">
     <tbody>
@@ -130,7 +130,7 @@ jQuery(document).ready(function(){
     </form>
     </div>
 <div class="banking-details fr">
-    <div align="center"><a href="https://www.fibank.bg/" target="_blank"><img  width="110" height="30" src="https://files.arsofia.com/uploads/2013/09/bgr-logo.png"></a></div>
+    <div align="center"><a href="https://www.fibank.bg/" target="_blank"><img  width="110" height="30" src="https://arsofia.com/wp-content/uploads/2013/09/bgr-logo.png"></a></div>
     <p><strong><?php _e('First Investment Bank', 'arsofia'); ?></strong></p>
     <p><strong><?php _e('37 D.Tsankov blvd, Sofia 1797, BULGARIA', 'arsofia'); ?></strong></p>
     <p><strong><?php _e('BIC: FINVBGSF', 'arsofia'); ?></strong></p>

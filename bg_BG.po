@@ -1652,8 +1652,8 @@ msgid "/a-happy-new-beginning-in-2014/"
 msgstr "chestito-novo-nachalo-prez-2014-ta-godina/"
 
 #: themes/arsofiav6.0/includes/shelter-message.php:4
-msgid "https://files.arsofia.com/uploads/2014/01/hdog1.png"
-msgstr "https://files.arsofia.com/uploads/2013/10/attention-hi-r1-c11.png"
+msgid "https://arsofia.com/wp-content/uploads/2014/01/hdog1.png"
+msgstr "https://arsofia.com/wp-content/uploads/2013/10/attention-hi-r1-c11.png"
 
 #: themes/arsofiav6.0/includes/shelter-message.php:5
 msgid ""
